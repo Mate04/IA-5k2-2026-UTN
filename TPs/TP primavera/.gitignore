@@ -1,0 +1,12 @@
+# Entorno local y salidas de pruebas en CPU
+.venv/
+salidas_local/
+
+# Envíos completos (pesan > 10 MB cada uno; se regeneran corriendo la notebook)
+kaggle_outputs/**/submission.csv
+kaggle_outputs/**/solution.csv
+
+# Pesos de modelos descargados
+*.pt
+*.pth
+*.safetensors
