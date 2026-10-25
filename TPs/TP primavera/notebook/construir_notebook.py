@@ -38,6 +38,7 @@ PARCHES = [
 
 # Celdas nuevas: (texto que identifica la celda de referencia, "despues" o "reemplazar", archivos en orden)
 INSERCIONES = [
+    (None, "inicio", ["0_instalacion.py"]),
     ("### 3.5 Conclusiones de la Fase 3", "despues", ["3_6_atributos.md", "3_6_atributos.py"]),
     (None, "reemplazar_ultima_vacia", ["5_0_intro.md", "5_1_consulta.md", "5_1_consulta.py", "5_2_parser.md", "5_2_parser.py",
                                        "5_3_motor.md", "5_3_motor.py", "5_4_benchmark.md", "5_4_benchmark.py",
@@ -77,7 +78,9 @@ def construir():
 
     for marca, modo, archivos in INSERCIONES:
         nuevas = [nueva_celda(a) for a in archivos]
-        if modo == "despues":
+        if modo == "inicio":
+            celdas[0:0] = nuevas
+        elif modo == "despues":
             i = buscar(celdas, marca)
             celdas[i + 1:i + 1] = nuevas
         else:
