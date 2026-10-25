@@ -137,7 +137,7 @@ Un flag `RUN_EXPERIMENTS` saltea la sección 7 en las corridas rápidas. La corr
 | S3 ✅ | 🤖 | **Fase 5**: schema del query, motor (count, existence, position, size, relation, attribute, compare), parser determinista (campos estructurados + regex para el predicado), políticas de ambigüedad, `unknown` y `unsupported`, descripción por plantilla, validación de filas | Hecho: 60/60 consignas, 0 filas inválidas |
 | S4 ✅ | 🤖 | Respuestas GT desde las anotaciones (solo para evaluar), exactitud por tipo, fidelidad y origen de cada error | Hecho: exactitud 0,75 · fidelidad 100 % · 9 de 10 errores son de percepción |
 | S5 ✅ | 🤖 | **Atributos** (3.6): color dominante (HSV → nombre), oclusión, `near` en `extra_relations`, `touches_border` | Hecho; la plausibilidad del color es ≈ 0,55 (atributo aproximado, documentado) |
-| S6 | 🧑 | Correr la v3 en Kaggle y **enviarla** (pasos abajo) | Puntaje de la v3 (se espera +0,03 a +0,05) |
+| S6 ✅ | 🤖 | Correr la v3 en Kaggle y **enviarla** | Hecho en `matus4/tpi-ia-2026p-5` (versión 1, 6 min 48 s en T4 x2): **0,6656** (+0,043 sobre la v2), puesto 37 de 50 |
 
 **Cómo correr la v3 en Kaggle (S6):**
 1. Abrir la notebook de Esmeralda → **Edit** (si sólo aparece *Copy & Edit*, falta el permiso de S1).

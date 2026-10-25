@@ -20,7 +20,7 @@ PARCHES = [
      "|---|---|---|\n"
      "| v1 | Fases 1 a 4 con cajas en `[x, y, w, h]` | rechazada por formato |\n"
      "| v2 | Cajas en `[xmin, ymin, xmax, ymax]` | 0,6229 |\n"
-     "| v3 | Atributos y proximidad (3.6), preguntas en modo determinista (Fase 5), validación de filas antes del envío | pendiente |\n\n"),
+     "| v3 | Atributos y proximidad (3.6), preguntas en modo determinista (Fase 5), validación de filas antes del envío | 0,6656 |\n\n"),
     ('ROOT = next(Path("/kaggle/input")',
      '# Ubicar la raíz sin adivinar la ruta de montaje\nROOT = next(Path("/kaggle/input").rglob("scene_schema.json")).parent',
      '# Ubicar la raíz sin adivinar la ruta de montaje (en Kaggle: /kaggle/input; en una PC: el caché de kagglehub)\n'
