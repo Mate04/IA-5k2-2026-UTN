@@ -76,8 +76,10 @@ def simular(escena):
         dict(category_id=o["category_id"], score=o["confidence"], rango=0,
              bbox=[o["bbox"][0], o["bbox"][1], o["bbox"][2] - o["bbox"][0], o["bbox"][3] - o["bbox"][1]]) for o in objs]
     ns["segmentar"] = lambda im, cajas: [ns["rle_decode"](o["mask"]) for o in objs][:len(cajas)]
-ns.update(aplicar_nms=lambda d: d, MODELO="simulado", SAM_ID="simulado", UMBRAL=0.2,
-          caja_a_mascara=lambda b, H, W: np.zeros((H, W), bool))
+ns.update(aplicar_nms=lambda d: d, MODELO="simulado", SAM_ID="simulado", UMBRAL=0.2, K_MAX=2, CAJA_DESDE_MASCARA=False,
+          DET_CONFIG=dict(modelo="simulado", k_max=2, umbral=0.2), caja_a_mascara=lambda b, H, W: np.zeros((H, W), bool),
+          caja_de_mascara=lambda m: [float(np.nonzero(m)[1].min()), float(np.nonzero(m)[0].min()),
+                                     float(np.ptp(np.nonzero(m)[1]) + 1), float(np.ptp(np.nonzero(m)[0]) + 1)])
 for e in escenas[:2] + escenas[-2:]:
     simular(e)
     traza_sim = []
@@ -91,4 +93,13 @@ for e in escenas[:2] + escenas[-2:]:
 for marca, titulo in [("QUERY_SCHEMA = {", "5.1"), ("def query_determinista", "5.2"), ("def ejecutar(query, escena)", "5.3"),
                       ("escena_por_id = {", "5.4"), ("def escena_gt", "5.5"), ("NOMBRES_ES = {", "5.6"),
                       ("def problemas_de_fila", "5.7")]:
+    correr(marca, titulo=titulo)
+
+# Fase 6 con un LLM chico en CPU (sólo plomería; en Kaggle corre Qwen2.5-3B en GPU)
+import torch
+os.environ.setdefault("TPI_LLM_ID", "Qwen/Qwen2.5-0.5B-Instruct")
+ns.update(torch=torch, device="cpu", VOCAB=ns["cats"].category_name.tolist(), g=pd.Series(dict(F1=float("nan"))), CAJA_DESDE_MASCARA=False,
+          tabla_seg=pd.DataFrame([dict(segmentador="simulado", F1=float("nan"))]))
+for marca, titulo in [("LLM_ID = os.environ", "6.1"), ("PROMPT_INTERPRETE = f", "6.2"), ("ZONAS_ES = dict(", "6.3"),
+                      ("def responder_llm", "6.4"), ('e["questions_llm"] = preguntas_llm', "6.5")]:
     correr(marca, titulo=titulo)

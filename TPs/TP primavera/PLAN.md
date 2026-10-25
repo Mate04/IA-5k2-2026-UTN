@@ -212,3 +212,62 @@ Un flag `RUN_EXPERIMENTS` saltea la sección 7 en las corridas rápidas. La corr
 | LLM no reproducible | Greedy + semilla + salidas guardadas |
 | Reporte que no coincide con la notebook | El reporte cita solo números leídos de archivos de resultados |
 | Archivos pesados en git (GitHub rechaza > 100 MB) | `*.mp4` ya está en `.gitignore`; ignorar también pesos de modelos y salidas de Kaggle |
+
+---
+
+## 10. Plan para subir el puntaje (sáb 24/10 a la noche, ejecutado por Claude)
+
+### Dónde estamos
+- **0,6656**, puesto 37 de 52. El primero tiene 0,8298 y los de 5K1 están entre 0,70 y 0,80.
+- Despeje de la fórmula: con F1 de cajas 0,66 y de máscaras 0,62 (dev), la percepción aporta ≈ 0,48 de los 0,75 posibles; la consistencia, ≈ 0,14 de 0,15; y QA, ≈ 0,043 de 0,10, porque `questions_llm` va vacía.
+- **Conclusión:** el 75 % del puntaje es percepción, y ahí está casi toda la distancia con los primeros (que deben andar en F1 ≈ 0,78). La segunda palanca es el modo LLM (+0,03 a +0,05, y además es requisito de promoción).
+- Probado en CPU sobre las detecciones guardadas: afinar el umbral (0,20 → 0,18), el NMS o un umbral por rango suma como mucho +0,005 de F1, y la caja sacada de la máscara empeora (0,651). **No alcanza con post-procesar: hay que cambiar el detector.**
+
+### Qué se hace (v4), en una sola corrida de Kaggle (~45 min de GPU)
+| # | Cambio | Dónde | Por qué |
+|---|---|---|---|
+| E3 | OWLv2 **large** (patch14, 1008 px) contra base | 2.9 | Mejor backbone; es lo que suele usar quien tiene F1 ≈ 0,75+ |
+| E7 | **Sinónimos** por clase (`fireplug` → fire hydrant, `person` → man / woman / child…), con el máximo entre consultas | 2.9 | `person` tenía recall 0,03 por confianza baja; nombres raros de LVIS |
+| E4 | **Ventanas** 2×2 (60 %) además de la imagen completa, estilo SAHI | 2.9 | 54 % de objetos chicos con recall 0,43 |
+| E6 | SAM2.1 **large** contra small | 3.3b | Máscaras más finas con las mismas cajas |
+| E5 | Oráculo: SAM2 con cajas reales | 3.3b | Separa errores del detector y del segmentador (promoción) |
+| F6 | **Modo LLM** con Qwen2.5-3B: intérprete → mismo motor → redacción con control; descripción con control de alucinaciones | Fase 6 | +QA y requisito de promoción |
+
+Cada experimento elige solo, con el F1 de desarrollo, si entra en la configuración final; las Fases 3 y 4 usan lo que gana. Todo queda en `results/*.csv`.
+
+### Próximos pasos después de la v4
+1. Leer `results/det_experimentos.csv`: si las ventanas o los sinónimos no ayudaron, documentarlo como intento fallido (también suma en la nota).
+2. Validación cruzada del umbral (5-fold, CPU) sobre las detecciones crudas que guarda la v4.
+3. Traza completa (run_id, config_hash, linaje por objeto) y Fase 8 de propagación de errores.
+4. Actualizar los markdown con números fijos (4.3 y 5.8 todavía muestran los de la v2 y la v3) y escribir `REPORTE.md`.
+
+### Resultado de la v4 (dom 25/10, ~04:00) — **0,7022** en el público (+0,037 sobre la v3)
+Corrida: versión 2 de `matus4/tpi-ia-2026p-5` (28 min en T4 x2). Envío "TPI_IA_2026P_5 - v4 - …".
+
+| Etapa | v3 | v4 | Detalle |
+|---|---|---|---|
+| F1 cajas (dev) | 0,660 | **0,679** | base + ventanas 2×2 + sinónimos, k = 3, umbral 0,25. Recall en chicos 0,487 → 0,519 |
+| F1 máscaras (dev) | 0,620 | **0,645** | SAM2.1 **large** (small: 0,637 con las mismas cajas) |
+| QA determinista | 0,75 | **0,775** | posición 1,0 |
+| QA LLM (Qwen2.5-3B) | — | 0,725 | interpretación correcta 88 %, misma respuesta que el determinista 95 %, JSON válido 100 % |
+| Descripciones LLM | — | 19/20 | 0 clases alucinadas, cobertura de las 3 clases principales 0,78 |
+
+**Experimentos que no mejoraron (documentar):** OWLv2-**large** dio F1 0,624, peor que base (0,666) con el mismo barrido; caja sacada de la máscara 0,672 vs 0,679. Oráculo SAM2 con cajas reales: IoU medio 0,79 y 90 % de máscaras con IoU ≥ 0,5 (chicos 85 %) → el cuello de botella sigue siendo el detector.
+
+**Problemas vistos en la traza del LLM:** la redacción pasó el control sólo en 30 % (el 3B contestaba "No" a secas); las descripciones salieron como lista y con el nombre en español entre paréntesis; errores de traducción de clase ("calcetín" → shoe, "pantalones" → short pants).
+
+### v5 — **0,7028** en el público, puesto 24 de 52 (versión 3 de la copia, 32 min)
+- Intérprete con vocabulario bilingüe (inglés + nombre en español propio).
+- Ejemplos resueltos en los prompts de redacción y de descripción; control de "N objetos (clase)" contra el conteo.
+- Candidato extra de detector: ensamble base (ventanas + sinónimos) + large, elegido sólo si sube el F1 de dev.
+
+**Resultado de la v5:** el ensamble con large no mejoró (F1 0,676 contra 0,679), así que la percepción quedó igual que en la v4. Lo que cambió fue el modo LLM:
+- Interpretación correcta: 88 % → **97 %** (58 de 60). Quedan dos errores: "manija" → `mango` y "gafas" → `glasses` (en el vocabulario, `spectacles`).
+- Redacción aceptada por el control: 30 % → **80 %**.
+- Descripciones: **20 de 20** redactadas por el LLM, sin clases alucinadas, con cobertura de las 3 clases principales de 0,98 (antes 0,78).
+
+### Próximos pasos (para retomar)
+1. **QA LLM:** agregar al normalizador un mapa de alias en inglés (`glasses` → spectacles, `tv` → television set, etc.) y un ejemplo con "manija". Suma 2 preguntas.
+2. **Detector:** la mejora que queda es chica (+0,019 de F1 en la v4). Ideas sin probar: ventanas de 3×3, umbral distinto para las cajas de las ventanas y validación cruzada del umbral (5-fold, en CPU con `dets_*_dev.pkl`).
+3. **Promoción:** traza completa (run_id, config_hash, linaje por objeto) y propagación de errores (Fase 8). Además, actualizar los markdown con números fijos (4.3 y 5.8) y escribir `REPORTE.md` con los CSV de `results/` de la versión 3.
+4. **Entrega:** elegir 2 envíos finales en *Submissions* (hoy, v5 = 0,7028 y v4 = 0,7022), compartir la notebook con **martingra** y acordar con Esmeralda cuál notebook es la oficial.

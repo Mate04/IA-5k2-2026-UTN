@@ -26,6 +26,7 @@ NOMBRES_ES = {
     "awning": "toldo", "vent": "rejilla de ventilación", "banner": "pancarta", "cow": "vaca", "flowerpot": "maceta",
     "tag": "etiqueta", "fireplug": "hidrante", "boot": "bota",
 }
+NOMBRES_ES_PROPIOS = dict(NOMBRES_ES)   # copia previa a los nombres de la cátedra: el modo LLM (Fase 6) sólo puede usar ésta
 for p in qs[qs.class_en.str.len() > 0].to_dict("records"):   # mismos nombres que usa la cátedra
     NOMBRES_ES.update(zip(p["class_en"], p["class_es"]))
 assert set(NOMBRES_ES) == set(name2id), set(name2id) ^ set(NOMBRES_ES)

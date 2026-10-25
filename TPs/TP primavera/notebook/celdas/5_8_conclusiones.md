@@ -1,5 +1,7 @@
 ### 5.8 Conclusiones de la Fase 5
 
+*Los números de esta tabla son de la v3 (OWLv2-base). Desde la v4 el detector sale de 2.9, así que los valores de esta corrida son los que imprime 5.5; la lectura cualitativa se mantiene.*
+
 | Medida | Resultado |
 |---|---|
 | Consignas respondidas | 60 de 60: 51 `ok`, 6 `ambiguous`, 3 `insufficient_information` |

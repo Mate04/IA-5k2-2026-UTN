@@ -20,7 +20,9 @@ PARCHES = [
      "|---|---|---|\n"
      "| v1 | Fases 1 a 4 con cajas en `[x, y, w, h]` | rechazada por formato |\n"
      "| v2 | Cajas en `[xmin, ymin, xmax, ymax]` | 0,6229 |\n"
-     "| v3 | Atributos y proximidad (3.6), preguntas en modo determinista (Fase 5), validación de filas antes del envío | 0,6656 |\n\n"),
+     "| v3 | Atributos y proximidad (3.6), preguntas en modo determinista (Fase 5), validación de filas antes del envío | 0,6656 |\n"
+     "| v4 | Experimentos de detector (2.9: OWLv2-large, sinónimos, ventanas) y de SAM2 (3.3b), modo LLM con Qwen2.5-3B (Fase 6) | 0,7022 |\n"
+     "| v5 | Ensamble base + large (E8), vocabulario bilingüe para el intérprete, ejemplos resueltos en la redacción y control de conteos en la descripción | 0,7028 |\n\n"),
     ('ROOT = next(Path("/kaggle/input")',
      '# Ubicar la raíz sin adivinar la ruta de montaje\nROOT = next(Path("/kaggle/input").rglob("scene_schema.json")).parent',
      '# Ubicar la raíz sin adivinar la ruta de montaje (en Kaggle: /kaggle/input; en una PC: el caché de kagglehub)\n'
@@ -34,16 +36,47 @@ PARCHES = [
      '        escena = dict(image=dict(id=image_id, width=W, height=H), objects=objetos, relations=rels, questions=[], questions_llm=[])\n',
      '        escena = dict(image=dict(id=image_id, width=W, height=H), objects=objetos, relations=rels, questions=[], questions_llm=[])\n'
      '        paso(traza, image_id, "atributos", PARAMS_ATRIBUTOS, lambda: agregar_atributos(escena, im))   # v3: 3.6\n'),
+    # v4: el detector, k y la caja salen de los experimentos 2.9 y 3.3b
+    ('def procesar_imagen',
+     'dict(modelo=MODELO, prompt="a photo of a {clase}", k_max=2, umbral_crudo=0.05)',
+     'dict(DET_CONFIG, umbral_crudo=0.05)'),
+    ('def procesar_imagen',
+     'detectar_multi(path, umbral=0.05, k_max=2)',
+     'detectar_multi(path, umbral=0.05, k_max=K_MAX)'),
+    ('def procesar_imagen',
+     '                caja = caja_xyxy(d.bbox, W, H)\n'
+     '                if not caja_valida(caja):\n'
+     '                    continue                           # caja degenerada (ancho o alto 0 tras recortar al borde)\n'
+     '                if m.sum() == 0:\n'
+     '                    m = caja_a_mascara(d.bbox, H, W)   # respaldo: la caja como máscara\n'
+     '                if m.sum() == 0:\n'
+     '                    continue\n',
+     '                if m.sum() == 0:\n'
+     '                    m = caja_a_mascara(d.bbox, H, W)   # respaldo: la caja como máscara\n'
+     '                if m.sum() == 0:\n'
+     '                    continue\n'
+     '                caja = caja_xyxy(caja_de_mascara(m) if CAJA_DESDE_MASCARA else d.bbox, W, H)   # v4: decisión de 3.3b\n'
+     '                if not caja_valida(caja):\n'
+     '                    continue                           # caja degenerada (ancho o alto 0 tras recortar al borde)\n'),
+    ('SAM_ID = "facebook/sam2.1-hiera-small"',
+     '# Detecciones finales de la Fase 2: hasta 2 clases por caja, NMS 0,5, umbral 0,20\ndk = aplicar_nms(dets_multi[dets_multi.rango < 2])',
+     '# Detecciones finales: configuración elegida en 2.9 (hasta K_MAX clases por caja, NMS 0,5, umbral UMBRAL)\n'
+     'dk = aplicar_nms(dets_multi[dets_multi.rango < K_MAX])'),
 ]
 
 # Celdas nuevas: (texto que identifica la celda de referencia, "despues" o "reemplazar", archivos en orden)
 INSERCIONES = [
     (None, "inicio", ["0_instalacion.py"]),
+    ("### 2.8 Conclusiones de la Fase 2", "despues", ["2_9_detector.md", "2_9_detector.py"]),
+    ("rle_sam, rle_caja, vacias = {}, {}, 0", "despues", ["3_3b_sam.md", "3_3b_sam.py"]),
     ("### 3.5 Conclusiones de la Fase 3", "despues", ["3_6_atributos.md", "3_6_atributos.py"]),
     (None, "reemplazar_ultima_vacia", ["5_0_intro.md", "5_1_consulta.md", "5_1_consulta.py", "5_2_parser.md", "5_2_parser.py",
                                        "5_3_motor.md", "5_3_motor.py", "5_4_benchmark.md", "5_4_benchmark.py",
                                        "5_5_evaluacion.md", "5_5_evaluacion.py", "5_6_extra.md", "5_6_extra.py",
-                                       "5_7_envio.md", "5_7_envio.py", "5_8_conclusiones.md"]),
+                                       "5_7_envio.md", "5_7_envio.py", "5_8_conclusiones.md",
+                                       "6_0_intro.md", "6_1_llm.md", "6_1_llm.py", "6_2_interprete.md", "6_2_interprete.py",
+                                       "6_3_redaccion.md", "6_3_redaccion.py", "6_4_benchmark.md", "6_4_benchmark.py",
+                                       "6_5_envio.md", "6_5_envio.py", "6_6_conclusiones.md"]),
 ]
 
 
@@ -54,7 +87,7 @@ def fuente(celda):
 def nueva_celda(archivo):
     texto = (CELDAS / archivo).read_text(encoding="utf-8").rstrip("\n")
     lineas = texto.splitlines(keepends=True)
-    id_celda = "v3-" + archivo.replace(".", "-").replace("_", "-")
+    id_celda = "tpi-" + archivo.replace(".", "-").replace("_", "-")
     if archivo.endswith(".md"):
         return {"cell_type": "markdown", "id": id_celda, "metadata": {}, "source": lineas}
     return {"cell_type": "code", "id": id_celda, "metadata": {}, "execution_count": None, "outputs": [], "source": lineas}
