@@ -1,0 +1,26 @@
+etapa,metrica,valor,archivo
+detección,F1 de cajas en desarrollo (configuración final),0.679,det_experimentos.csv
+detección,precisión / recall,0.7158 / 0.6458,det_experimentos.csv
+detección,cobertura de evaluación (LVIS),0.4154,det_experimentos.csv
+detección,F1 de cajas en validación cruzada (media),0.6733,det_validacion_cruzada.csv
+detección,F1 de cajas en validación cruzada (desvío),0.0227,det_validacion_cruzada.csv
+segmentación,F1 de máscaras en desarrollo,0.6449,seg_experimentos.csv
+segmentación,IoU medio de SAM2 con cajas reales (oráculo),0.7889,seg_oraculo.csv
+propagación,objetos reales con caja y máscara correctas,0.5994,propagacion_objetos.csv
+propagación,objetos reales perdidos por el umbral,0.2531,propagacion_objetos.csv
+propagación,objetos reales no localizados,0.067,propagacion_objetos.csv
+QA determinista,exactitud en preguntas cerradas,0.775,qa_det_exactitud.csv
+QA determinista,fidelidad al SceneJSON,1.0,qa_det_fidelidad.csv
+QA determinista,casos extra bien manejados,0.819,qa_extra_manejo.csv
+QA LLM,clases escritas exactamente como en el vocabulario (sin normalizar),0.9167,qa_llm_respuestas.csv
+QA LLM,interpretación correcta al primer intento,1.0,qa_llm_respuestas.csv
+QA LLM,interpretación correcta (final),1.0,qa_llm_respuestas.csv
+QA LLM,JSON válido (final),1.0,qa_llm_respuestas.csv
+QA LLM,exactitud en preguntas cerradas,0.775,qa_llm_respuestas.csv
+QA LLM,misma respuesta que el modo determinista,1.0,qa_llm_respuestas.csv
+QA LLM,redacciones aceptadas por el control (cerradas),0.825,qa_llm_respuestas.csv
+QA LLM,descripciones redactadas por el LLM,1.0,qa_llm_descripciones.csv
+QA LLM,clases alucinadas en las descripciones aceptadas,0,qa_llm_descripciones.csv
+QA LLM,cobertura de las 3 clases principales en la descripción,0.9833,qa_llm_descripciones.csv
+QA LLM,casos extra bien manejados,0.819,qa_llm_extra.csv
+envío,filas válidas,80 de 80,submission.csv

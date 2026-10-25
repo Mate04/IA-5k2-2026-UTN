@@ -45,6 +45,35 @@ for pregunta, consulta in EJEMPLOS_INTERPRETE:
 
 INV_ES = {sin_acentos(v): k for k, v in NOMBRES_ES_PROPIOS.items()}   # diccionario propio, no el de la cátedra
 
+# v6: sinónimos y variantes regionales en español (diccionario propio). Motivo: en la v5 la pregunta decía "mango" y el
+# diccionario sólo tenía "manija" para `handle`. Sólo palabras que no son el nombre de otra clase del vocabulario.
+SINONIMOS_ES = {
+    "handle": ["mango", "asa", "agarradera"], "spectacles": ["anteojos", "lentes"], "sunglasses": ["gafas de sol", "lentes de sol"],
+    "doorknob": ["picaporte", "pomo"], "wall socket": ["enchufe"], "cell phone": ["celular", "telefono", "movil"],
+    "car": ["coche", "automovil", "carro"], "bus": ["autobus", "omnibus"], "refrigerator": ["heladera", "nevera"],
+    "television set": ["television", "tele"], "faucet": ["canilla"], "sink": ["lavabo", "lavamanos", "bacha"],
+    "jacket": ["campera"], "kite": ["cometa"], "earring": ["arete"], "signboard": ["letrero"], "trash can": ["cesto de basura", "basurero", "papelera"],
+    "baseball glove": ["manopla"], "flowerpot": ["matera"], "bowl": ["bol"], "skateboard": ["monopatin"], "motorcycle": ["motocicleta"],
+    "bicycle": ["bici"], "streetlight": ["farol"], "license plate": ["matricula"], "headlight": ["faro"], "backpack": ["morral"],
+    "suitcase": ["maleta"], "handbag": ["cartera"], "teddy bear": ["peluche"], "computer mouse": ["raton"], "laptop": ["notebook", "portatil"],
+    "cabinet": ["armario", "alacena"], "jean": ["jeans", "vaqueros"], "short pants": ["shorts", "bermuda"], "baseball cap": ["gorra"],
+    "blanket": ["frazada", "cobija"], "pillow": ["almohadon", "cojin"], "toilet": ["retrete"], "umbrella": ["sombrilla"],
+    "boat": ["bote", "lancha"], "trousers": ["pantalon"], "fireplug": ["boca de incendio"], "vent": ["rejilla"],
+}
+assert set(SINONIMOS_ES) <= set(name2id)
+assert not {s for l in SINONIMOS_ES.values() for s in l} & set(INV_ES), "un sinónimo coincide con el nombre propio de una clase"
+INV_ES.update({s: c for c, l in SINONIMOS_ES.items() for s in l})
+
+# v6: sinónimos en inglés que no son otra clase del vocabulario (los del detector de 2.9 más algunos comunes).
+# Motivo: en la v5 el LLM tradujo "gafas" a "glasses", que no es el nombre LVIS ("spectacles").
+ALIAS_EN = {s: c for c, sinonimos in SINONIMOS.items() for s in sinonimos}
+ALIAS_EN.update({"glasses": "spectacles", "eyeglasses": "spectacles", "tv": "television set", "television": "television set",
+                 "pants": "trousers", "jeans": "jean", "mobile phone": "cell phone", "smartphone": "cell phone", "phone": "cell phone",
+                 "couch": "sofa", "door handle": "handle", "fire hydrant": "fireplug", "hydrant": "fireplug", "tie": "necktie",
+                 "purse": "handbag", "mug": "cup", "outlet": "wall socket", "socket": "wall socket", "monitor": "computer monitor",
+                 "keyboard": "computer keyboard", "mouse": "computer mouse", "bike": "bicycle", "motorbike": "motorcycle"})
+assert set(ALIAS_EN.values()) <= set(name2id) and not set(ALIAS_EN) & set(name2id)
+
 def normalizar_clase(c):
     """Lleva la clase que propone el LLM al vocabulario. Devuelve (clase, cómo se resolvió)."""
     c0 = " ".join(str(c).strip().lower().split())
@@ -53,6 +82,9 @@ def normalizar_clase(c):
     for sing in (c0[:-1] if c0.endswith("s") else None, c0[:-2] if c0.endswith("es") else None):
         if sing in name2id:
             return sing, "singular"
+    for alias in (c0, c0[:-1] if c0.endswith("s") else None):
+        if alias in ALIAS_EN:
+            return ALIAS_EN[alias], "alias_en"
     if sin_acentos(c0) in INV_ES:
         return INV_ES[sin_acentos(c0)], "diccionario_es"
     cerca = difflib.get_close_matches(c0, VOCAB, n=1, cutoff=0.88)
@@ -76,6 +108,8 @@ def preparar_query(salida):
     if crudo is None:
         return None, ["la salida no contiene un objeto JSON válido"], []
     q = {k: crudo[k] for k in ("intent", "classes", "predicate", "attribute", "comparator", "reason") if crudo.get(k) is not None}
+    propias = dict(predicate="relation", attribute="attribute", comparator="compare", reason="unsupported")
+    q = {k: v for k, v in q.items() if k not in propias or q.get("intent") == propias[k]}   # cada clave sólo en su intención
     if isinstance(q.get("classes"), str):
         q["classes"] = [q["classes"]]
     q.setdefault("classes", [])
@@ -93,6 +127,33 @@ def hay_que_reintentar(q, problemas):
     """Se reintenta por errores de formato, no por una clase fuera del vocabulario (eso es una respuesta válida)."""
     return q is None or any(not p.startswith("clase fuera del vocabulario") for p in problemas)
 
+def menciones_vocab(texto):
+    """Clases del vocabulario que el texto nombra, en español (diccionario propio) o en inglés. Primero los nombres más largos."""
+    t = sin_acentos(texto.lower())
+    nombres = {**INV_ES, **{c: c for c in name2id}}
+    encontradas = []
+    for n in sorted(nombres, key=len, reverse=True):
+        patron = rf"\b{re.escape(n)}(s|es)?\b"
+        if re.search(patron, t):
+            encontradas.append(nombres[n])
+            t = re.sub(patron, " ", t)
+    return list(dict.fromkeys(encontradas))
+
+def pista_vocabulario(texto, r):
+    """v6: si el LLM propuso una clase fuera del vocabulario pero la pregunta nombra objetos que sí están, arma la pista del
+    reintento. Es un posible error de traducción de la clase. Elige el LLM; el código sólo avisa.
+    No se usa si la intención es unsupported o description: ahí las clases no se ejecutan, y un reintento podría
+    convertir una pregunta fuera de alcance en una soportada."""
+    if (r["query"] or {}).get("intent") in (None, "unsupported", "description"):
+        return None
+    fuera = [n["llm"] for n in r["normalizacion"] if n["como"] == "sin_coincidencia"]
+    candidatas = [c for c in menciones_vocab(texto) if c not in (r["query"] or {}).get("classes", [])]
+    if not fuera or not candidatas:
+        return None
+    return (f"Las clases {', '.join(fuera)} no están en el vocabulario. La pregunta nombra estos objetos que sí están: "
+            f"{', '.join(f'{c} ({NOMBRES_ES_PROPIOS.get(c, c)})' for c in candidatas)}. Si alguno es el objeto por el que "
+            "se pregunta, usá su nombre en inglés; si no, dejá la clase como estaba. Devolvé sólo el JSON.")
+
 def interpretar(preguntas):
     """Lista de textos -> lista de dicts con la consulta, los problemas y el registro de la interpretación."""
     t0 = time.time()
@@ -101,15 +162,24 @@ def interpretar(preguntas):
     res = []
     for s in salidas:
         q, prob, norm = preparar_query(s)
-        res.append(dict(query=q, problemas=prob, normalizacion=norm, salida_1=s, intentos=1, valida_1=not hay_que_reintentar(q, prob)))
-    reintentar = [i for i, r in enumerate(res) if not r["valida_1"]]
+        res.append(dict(query=q, query_1=q, problemas=prob, normalizacion=norm, normalizacion_1=norm, salida_1=s, intentos=1,
+                        motivo_reintento="", valida_1=not hay_que_reintentar(q, prob)))
+    # Dos motivos de reintento: formato inválido, o clase fuera del vocabulario cuando la pregunta nombra una que sí está
+    reintentar = {}
+    for i, (t, r) in enumerate(zip(preguntas, res)):
+        if not r["valida_1"]:
+            reintentar[i] = ("formato", f"Esa consulta no es válida: {'; '.join(r['problemas'])}. Corregila y devolvé sólo el JSON.")
+        elif pista := pista_vocabulario(t, r):
+            reintentar[i] = ("vocabulario", pista)
     if reintentar:
-        convs2 = [convs[i] + [{"role": "assistant", "content": res[i]["salida_1"]},
-                              {"role": "user", "content": f"Esa consulta no es válida: {'; '.join(res[i]['problemas'])}. "
-                                                          "Corregila y devolvé sólo el JSON."}] for i in reintentar]
-        for i, s in zip(reintentar, generar(convs2, max_new_tokens=100)):
+        idx = list(reintentar)
+        convs2 = [convs[i] + [{"role": "assistant", "content": res[i]["salida_1"]}, {"role": "user", "content": reintentar[i][1]}]
+                  for i in idx]
+        for i, s in zip(idx, generar(convs2, max_new_tokens=100)):
             q, prob, norm = preparar_query(s)
-            res[i].update(query=q, problemas=prob, normalizacion=norm, salida_2=s, intentos=2)
+            res[i].update(salida_2=s, intentos=2, motivo_reintento=reintentar[i][0])
+            if reintentar[i][0] == "formato" or not hay_que_reintentar(q, prob):   # una pista nunca empeora una consulta válida
+                res[i].update(query=q, problemas=prob, normalizacion=norm)
     ms = (time.time() - t0) * 1000 / max(1, len(preguntas))
     for r in res:
         r["valida_final"] = not hay_que_reintentar(r["query"], r["problemas"])
@@ -117,6 +187,7 @@ def interpretar(preguntas):
     return res
 
 # Prueba con preguntas que no están en el benchmark
+print("Menciones del vocabulario en un texto de prueba:", menciones_vocab('¿El "reloj de pulsera" está cerca de las sillas?'))
 for t, r in zip(pruebas := ["¿Cuántos inodoros hay?", "¿El reloj está a la derecha de la ventana?", "¿Qué hora marca el reloj?"],
                 interpretar(pruebas)):
     print(f"{t:45s} -> {json.dumps(r['query'], ensure_ascii=False)} | problemas: {r['problemas'] or '-'} | intentos: {r['intentos']}")

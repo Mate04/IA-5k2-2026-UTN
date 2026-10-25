@@ -1,0 +1,106 @@
+question_id,caso,pregunta,respuesta,status,ref,correcto
+EXTRA-001,ambigua,"¿En qué zona de la imagen está la instancia de ""pomo de puerta""?",unknown,insufficient_information,center,True
+EXTRA-002,atributo,"¿De qué color es la instancia de ""espejo""?",gray,ok,gray,True
+EXTRA-003,comparación,"¿Hay más instancias de ""pomo de puerta"" que de ""espejo"" en la imagen?",no,ok,yes,False
+EXTRA-004,proximidad,"¿La instancia de ""pomo de puerta"" está cerca de la instancia de ""espej",unknown,insufficient_information,no,False
+EXTRA-005,fuera de alcance,¿Qué está haciendo la persona en la imagen?,unsupported,unsupported,unsupported,True
+EXTRA-006,fuera del vocabulario,"¿Hay al menos una instancia de la categoría ""unicornio"" en la imagen?",unsupported,unsupported,unsupported,True
+EXTRA-007,ambigua,"¿En qué zona de la imagen está la instancia de ""calcetín""?",bottom_center,ambiguous,bottom_center,True
+EXTRA-008,atributo,"¿De qué color es la instancia de ""pantalones cortos""?",black,ok,black,True
+EXTRA-009,comparación,"¿Hay más instancias de ""calcetín"" que de ""cartel"" en la imagen?",yes,ok,no,False
+EXTRA-010,proximidad,"¿La instancia de ""calcetín"" está cerca de la instancia de ""cartel""?",unknown,insufficient_information,no,False
+EXTRA-011,fuera de alcance,¿De qué material está hecha la mesa?,unsupported,unsupported,unsupported,True
+EXTRA-012,ambigua,"¿En qué zona de la imagen está la instancia de ""cortina""?",top_right,ambiguous,top_right,True
+EXTRA-013,atributo,"¿De qué color es la instancia de ""arreglo floral""?",black,ok,black,True
+EXTRA-014,comparación,"¿Hay más instancias de ""cortina"" que de ""jarrón"" en la imagen?",yes,ok,yes,True
+EXTRA-015,proximidad,"¿La instancia de ""cortina"" está cerca de la instancia de ""jarrón""?",no,ambiguous,no,True
+EXTRA-016,fuera de alcance,¿El televisor está encendido?,unsupported,unsupported,unsupported,True
+EXTRA-017,ambigua,"¿En qué zona de la imagen está la instancia de ""pantalones""?",bottom_center,ambiguous,middle_right,True
+EXTRA-018,atributo,"¿De qué color es la instancia de ""bate de béisbol""?",black,ok,white,True
+EXTRA-019,comparación,"¿Hay más instancias de ""pantalones"" que de ""gorra de béisbol"" en la im",yes,ok,yes,True
+EXTRA-020,proximidad,"¿La instancia de ""pantalones"" está cerca de la instancia de ""gorra de ",no,ambiguous,no,True
+EXTRA-021,fuera de alcance,¿Qué dice el cartel?,unsupported,unsupported,unsupported,True
+EXTRA-022,ambigua,"¿En qué zona de la imagen está la instancia de ""plato""?",bottom_center,ambiguous,bottom_right,True
+EXTRA-023,atributo,"¿De qué color es la instancia de ""botón""?",gray,ok,white,True
+EXTRA-024,comparación,"¿Hay más instancias de ""plato"" que de ""tenedor"" en la imagen?",yes,ok,yes,True
+EXTRA-025,proximidad,"¿La instancia de ""plato"" está cerca de la instancia de ""tenedor""?",no,ambiguous,no,True
+EXTRA-026,fuera de alcance,¿La persona parece contenta?,unsupported,unsupported,unsupported,True
+EXTRA-027,fuera del vocabulario,"¿Hay al menos una instancia de la categoría ""unicornio"" en la imagen?",unsupported,unsupported,unsupported,True
+EXTRA-028,ambigua,"¿En qué zona de la imagen está la instancia de ""bolso""?",center,ambiguous,center,True
+EXTRA-029,atributo,"¿De qué color es la instancia de ""anillo""?",gray,ok,white,True
+EXTRA-030,comparación,"¿Hay más instancias de ""bolso"" que de ""anillo"" en la imagen?",yes,ok,yes,True
+EXTRA-031,proximidad,"¿La instancia de ""bolso"" está cerca de la instancia de ""anillo""?",yes,ambiguous,yes,True
+EXTRA-032,fuera de alcance,¿Qué está haciendo la persona en la imagen?,unsupported,unsupported,unsupported,True
+EXTRA-033,ambigua,"¿En qué zona de la imagen está la instancia de ""zapato""?",bottom_right,ok,bottom_right,True
+EXTRA-034,atributo,"¿De qué color es la instancia de ""patineta""?",gray,ok,black,True
+EXTRA-035,comparación,"¿Hay más instancias de ""zapato"" que de ""patineta"" en la imagen?",no,ok,yes,False
+EXTRA-036,proximidad,"¿La instancia de ""zapato"" está cerca de la instancia de ""patineta""?",no,ok,no,True
+EXTRA-037,fuera de alcance,¿De qué material está hecha la mesa?,unsupported,unsupported,unsupported,True
+EXTRA-038,ambigua,"¿En qué zona de la imagen está la instancia de ""botón""?",unknown,insufficient_information,center,True
+EXTRA-039,atributo,"¿De qué color es la instancia de ""collar""?",gray,ok,blue,True
+EXTRA-040,comparación,"¿Hay más instancias de ""botón"" que de ""guante"" en la imagen?",no,ok,yes,False
+EXTRA-041,proximidad,"¿La instancia de ""botón"" está cerca de la instancia de ""guante""?",unknown,insufficient_information,no,False
+EXTRA-042,fuera de alcance,¿El televisor está encendido?,unsupported,unsupported,unsupported,True
+EXTRA-043,ambigua,"¿En qué zona de la imagen está la instancia de ""almohada""?",bottom_right,ambiguous,middle_right,True
+EXTRA-044,atributo,"¿De qué color es la instancia de ""sofá""?",gray,ok,gray,True
+EXTRA-045,comparación,"¿Hay más instancias de ""almohada"" que de ""sofá"" en la imagen?",yes,ok,yes,True
+EXTRA-046,proximidad,"¿La instancia de ""almohada"" está cerca de la instancia de ""sofá""?",yes,ambiguous,yes,True
+EXTRA-047,fuera de alcance,¿Qué dice el cartel?,unsupported,unsupported,unsupported,True
+EXTRA-048,fuera del vocabulario,"¿Hay al menos una instancia de la categoría ""unicornio"" en la imagen?",unsupported,unsupported,unsupported,True
+EXTRA-049,ambigua,"¿En qué zona de la imagen está la instancia de ""libro""?",unknown,insufficient_information,top_left,True
+EXTRA-050,atributo,"¿De qué color es la instancia de ""jean""?",blue,ambiguous,blue,True
+EXTRA-051,comparación,"¿Hay más instancias de ""libro"" que de ""manta"" en la imagen?",no,ok,yes,False
+EXTRA-052,proximidad,"¿La instancia de ""libro"" está cerca de la instancia de ""manta""?",unknown,insufficient_information,no,False
+EXTRA-053,fuera de alcance,¿La persona parece contenta?,unsupported,unsupported,unsupported,True
+EXTRA-054,ambigua,"¿En qué zona de la imagen está la instancia de ""monitor""?",center,ambiguous,bottom_right,True
+EXTRA-055,atributo,"¿De qué color es la instancia de ""mouse de computadora""?",white,ok,white,True
+EXTRA-056,comparación,"¿Hay más instancias de ""monitor"" que de ""botella"" en la imagen?",yes,ok,yes,True
+EXTRA-057,proximidad,"¿La instancia de ""monitor"" está cerca de la instancia de ""botella""?",no,ambiguous,yes,False
+EXTRA-058,fuera de alcance,¿Qué está haciendo la persona en la imagen?,unsupported,unsupported,unsupported,True
+EXTRA-059,ambigua,"¿En qué zona de la imagen está la instancia de ""barco""?",bottom_right,ambiguous,bottom_right,True
+EXTRA-060,atributo,"¿De qué color es la instancia de ""pantalones cortos""?",blue,ok,blue,True
+EXTRA-061,comparación,"¿Hay más instancias de ""barco"" que de ""cartel"" en la imagen?",no,ok,no,True
+EXTRA-062,proximidad,"¿La instancia de ""barco"" está cerca de la instancia de ""cartel""?",no,ambiguous,no,True
+EXTRA-063,fuera de alcance,¿De qué material está hecha la mesa?,unsupported,unsupported,unsupported,True
+EXTRA-064,ambigua,"¿En qué zona de la imagen está la instancia de ""canasta""?",bottom_right,ambiguous,center,True
+EXTRA-065,atributo,"¿De qué color es la instancia de ""grifo""?",gray,ok,gray,True
+EXTRA-066,comparación,"¿Hay más instancias de ""canasta"" que de ""tomacorriente"" en la imagen?",no,ok,yes,False
+EXTRA-067,proximidad,"¿La instancia de ""canasta"" está cerca de la instancia de ""tomacorrient",no,ambiguous,no,True
+EXTRA-068,fuera de alcance,¿El televisor está encendido?,unsupported,unsupported,unsupported,True
+EXTRA-069,fuera del vocabulario,"¿Hay al menos una instancia de la categoría ""unicornio"" en la imagen?",unsupported,unsupported,unsupported,True
+EXTRA-070,ambigua,"¿En qué zona de la imagen está la instancia de ""libro""?",top_right,ambiguous,top_right,True
+EXTRA-071,atributo,"¿De qué color es la instancia de ""plato""?",white,ambiguous,white,True
+EXTRA-072,comparación,"¿Hay más instancias de ""libro"" que de ""reloj de pulsera"" en la imagen?",no,ok,yes,False
+EXTRA-073,proximidad,"¿La instancia de ""libro"" está cerca de la instancia de ""reloj de pulse",no,ambiguous,no,True
+EXTRA-074,fuera de alcance,¿Qué dice el cartel?,unsupported,unsupported,unsupported,True
+EXTRA-075,ambigua,"¿En qué zona de la imagen está la instancia de ""taza""?",center,ambiguous,center,True
+EXTRA-076,atributo,"¿De qué color es la instancia de ""mantel""?",brown,ok,brown,True
+EXTRA-077,comparación,"¿Hay más instancias de ""taza"" que de ""persona"" en la imagen?",yes,ok,no,False
+EXTRA-078,proximidad,"¿La instancia de ""taza"" está cerca de la instancia de ""persona""?",no,ambiguous,yes,False
+EXTRA-079,fuera de alcance,¿La persona parece contenta?,unsupported,unsupported,unsupported,True
+EXTRA-080,ambigua,"¿En qué zona de la imagen está la instancia de ""persona""?",center,ambiguous,bottom_right,True
+EXTRA-081,atributo,"¿De qué color es la instancia de ""avión""?",blue,ok,gray,True
+EXTRA-082,comparación,"¿Hay más instancias de ""persona"" que de ""avión"" en la imagen?",yes,ok,yes,True
+EXTRA-083,proximidad,"¿La instancia de ""persona"" está cerca de la instancia de ""avión""?",no,ambiguous,no,True
+EXTRA-084,fuera de alcance,¿Qué está haciendo la persona en la imagen?,unsupported,unsupported,unsupported,True
+EXTRA-085,ambigua,"¿En qué zona de la imagen está la instancia de ""caballo""?",middle_right,ambiguous,middle_right,True
+EXTRA-086,atributo,"¿De qué color es la instancia de ""toldo""?",blue,ok,blue,True
+EXTRA-087,comparación,"¿Hay más instancias de ""caballo"" que de ""pancarta"" en la imagen?",yes,ok,yes,True
+EXTRA-088,proximidad,"¿La instancia de ""caballo"" está cerca de la instancia de ""pancarta""?",no,ambiguous,no,True
+EXTRA-089,fuera de alcance,¿De qué material está hecha la mesa?,unsupported,unsupported,unsupported,True
+EXTRA-090,fuera del vocabulario,"¿Hay al menos una instancia de la categoría ""unicornio"" en la imagen?",unsupported,unsupported,unsupported,True
+EXTRA-091,ambigua,"¿En qué zona de la imagen está la instancia de ""cortina""?",unknown,insufficient_information,top_right,True
+EXTRA-092,atributo,"¿De qué color es la instancia de ""cuchillo""?",brown,ok,brown,True
+EXTRA-093,comparación,"¿Hay más instancias de ""cortina"" que de ""silla"" en la imagen?",no,ok,yes,False
+EXTRA-094,proximidad,"¿La instancia de ""cortina"" está cerca de la instancia de ""silla""?",unknown,insufficient_information,no,False
+EXTRA-095,fuera de alcance,¿El televisor está encendido?,unsupported,unsupported,unsupported,True
+EXTRA-096,ambigua,"¿En qué zona de la imagen está la instancia de ""gabinete""?",unknown,insufficient_information,middle_right,True
+EXTRA-097,atributo,"¿De qué color es la instancia de ""refrigerador""?",orange,ok,orange,True
+EXTRA-098,comparación,"¿Hay más instancias de ""gabinete"" que de ""botón"" en la imagen?",no,ok,yes,False
+EXTRA-099,proximidad,"¿La instancia de ""gabinete"" está cerca de la instancia de ""botón""?",unknown,insufficient_information,no,False
+EXTRA-100,fuera de alcance,¿Qué dice el cartel?,unsupported,unsupported,unsupported,True
+EXTRA-101,ambigua,"¿En qué zona de la imagen está la instancia de ""mango""?",top_center,ambiguous,middle_right,True
+EXTRA-102,atributo,"¿De qué color es la instancia de ""elefante""?",unknown,insufficient_information,gray,True
+EXTRA-103,comparación,"¿Hay más instancias de ""mango"" que de ""elefante"" en la imagen?",yes,ok,yes,True
+EXTRA-104,proximidad,"¿La instancia de ""mango"" está cerca de la instancia de ""elefante""?",unknown,insufficient_information,no,False
+EXTRA-105,fuera de alcance,¿La persona parece contenta?,unsupported,unsupported,unsupported,True

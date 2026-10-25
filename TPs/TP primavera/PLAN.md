@@ -266,8 +266,32 @@ Corrida: versión 2 de `matus4/tpi-ia-2026p-5` (28 min en T4 x2). Envío "TPI_IA
 - Redacción aceptada por el control: 30 % → **80 %**.
 - Descripciones: **20 de 20** redactadas por el LLM, sin clases alucinadas, con cobertura de las 3 clases principales de 0,98 (antes 0,78).
 
+### Domingo 25 (tarde) — v6 preparada (falta correrla en Kaggle)
+- Salidas reales de la v5 bajadas a `kaggle_outputs/v5/` (results, trazas, `submission.csv` y detecciones crudas de desarrollo).
+- **Corrección del diagnóstico:** la pregunta DEV-10-Q1 dice "mango" (es el nombre de la cátedra para `handle`), no "manija"; el LLM copió la palabra y nuestro diccionario sólo tenía "manija".
+- **Intérprete (6.2):** alias en inglés (`glasses` → `spectacles`…), sinónimos regionales en español (`mango`, `heladera`, `canilla`…), cada clave sólo en su intención, y reintento cuando la clase no está en el vocabulario pero la pregunta nombra una que sí. 6.4 mide tres niveles: clases exactas del LLM, primer intento y final.
+- **Traza completa:** `RUN_ID` en cada fila de traza y en el campo `trace` de cada SceneJSON (con el hash de la configuración de percepción), linaje por objeto (`traza_objetos.csv`) y `manifiesto_corrida.json` (configuración + hash, versiones, tiempos por fase, artefactos con SHA-256).
+- **Fase 7:** validación cruzada de 5 particiones → F1 0,673 ± 0,023 (optimismo 0,006). E9 (umbral por fuente): +0,001, no se adopta.
+- **Fase 8:** propagación por objeto (60 % OK, 25 % debajo del umbral, 7 % no localizado, 5 % máscara mala), por respuesta de QA y reconstrucción de una respuesta desde las trazas.
+- **Fase 9:** `results/resumen_final.csv` y checklist de la consigna.
+- Markdowns 4.3 y 5.8 con los números de la configuración final. Borrador de `REPORTE.md` (faltan los números de la v6 marcados con ‹v6›).
+
+**Cómo correr la v6 en Kaggle (mismo procedimiento que S6):**
+1. Abrir `matus4/tpi-ia-2026p-5` → **Edit** → **File → Import Notebook** → subir `notebook/TPI_IA_2026P_5.ipynb` (reemplaza el contenido).
+2. Panel derecho: **GPU T4 x2** · **Internet: On** · la competencia en *Input*.
+3. **Save Version → Save & Run All (Commit)**, nombre "v6 – traza completa + validación cruzada + propagación". Tarda ~35 min (la Fase 7 suma ~2 min de CPU).
+4. Al terminar: **Output → submission.csv → Submit**, descripción "TPI_IA_2026P_5 - v6 - traza completa, CV y propagación".
+5. Pasarme el puntaje; las salidas las bajo yo a `kaggle_outputs/v6/`.
+
+### Resultado de la v6 (dom 25/10, noche) — **0,7049** en el público (+0,002), puesto 25
+- Versión 4 de `matus4/tpi-ia-2026p-5`, 40 min en T4 x2, `run_id` 20261025-211049-720181, hash de percepción `3f1eea48fbeb` (el mismo que en la prueba local). Salidas en `kaggle_outputs/v6/`.
+- Percepción idéntica a la v5. Modo LLM: interpretación 100 % (clases exactas del LLM 91,7 %), exactitud 0,775 (igual al determinista), redacción aceptada 82,5 %, 20 de 20 descripciones.
+- Todos los números de las conclusiones (6.6, 7.3, 8.5) y del reporte coinciden con la corrida. Lo único desactualizado en la notebook de Kaggle es el "pendiente" de la tabla de versiones (ya corregido en el repo).
+
 ### Próximos pasos (para retomar)
-1. **QA LLM:** agregar al normalizador un mapa de alias en inglés (`glasses` → spectacles, `tv` → television set, etc.) y un ejemplo con "manija". Suma 2 preguntas.
+1. ~~Correr la v6 en Kaggle y enviarla.~~ Hecho (0,7049).
+1b. **Corrida final limpia (v7)** con la notebook del repo (sólo cambia la tabla de versiones), junto con cualquier cambio de la semana; después, actualizar el `run_id` en la portada del reporte. Después: bajar salidas a `kaggle_outputs/v6/`, verificar los números de 6.6, 7.3 y 8.5 contra la corrida, completar los ‹v6› del reporte, y, si algún número del texto no coincide con la corrida, hacer una **corrida final limpia** (v7, mismo código) para que texto y salidas coincidan.
+2. ~~**QA LLM:** alias en inglés y "manija".~~ Hecho en la v6.
 2. **Detector:** la mejora que queda es chica (+0,019 de F1 en la v4). Ideas sin probar: ventanas de 3×3, umbral distinto para las cajas de las ventanas y validación cruzada del umbral (5-fold, en CPU con `dets_*_dev.pkl`).
 3. **Promoción:** traza completa (run_id, config_hash, linaje por objeto) y propagación de errores (Fase 8). Además, actualizar los markdown con números fijos (4.3 y 5.8) y escribir `REPORTE.md` con los CSV de `results/` de la versión 3.
 4. **Entrega:** elegir 2 envíos finales en *Submissions* (hoy, v5 = 0,7028 y v4 = 0,7022), compartir la notebook con **martingra** y acordar con Esmeralda cuál notebook es la oficial.

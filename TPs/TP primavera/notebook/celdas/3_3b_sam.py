@@ -69,3 +69,4 @@ print(oraculo.groupby("tamaño", observed=True).iou.agg(objetos="size", iou_medi
                                                         iou_ge_05=lambda s: (s >= 0.5).mean()).round(3).to_string())
 tabla_seg.to_csv(RESULTADOS / "seg_experimentos.csv", index=False)
 oraculo.to_csv(RESULTADOS / "seg_oraculo.csv", index=False)
+marcar_fase("3 segmentación")

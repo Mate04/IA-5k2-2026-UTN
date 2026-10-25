@@ -1,0 +1,19 @@
+modo,question_id,type,clases,pred,ref,etapa,detalle
+determinista,DEV-1-Q1,count,doorknob,0,2,percepción: debajo del umbral,2 doorknob perdido(s): debajo del umbral
+determinista,DEV-4-Q1,count,trousers,2,4,percepción: localizado con otra clase,1 trousers perdido(s): localizado con otra clase; 1 trousers perdido(s): debajo del umbral
+determinista,DEV-5-Q1,count,fork,1,3,percepción: no localizado,1 fork perdido(s): eliminado por NMS; 1 fork perdido(s): no localizado
+determinista,DEV-7-Q1,count,shoe,1,2,percepción: debajo del umbral,1 shoe perdido(s): debajo del umbral
+determinista,DEV-8-Q1,count,glove,1,2,percepción: debajo del umbral,1 glove perdido(s): debajo del umbral
+determinista,DEV-23-Q1,existence,napkin,yes,no,percepción: falso positivo del detector,"sobra napkin obj_21 (ventana, confianza 0.29); sobra napkin obj_26 (ventana, confianza 0.26); sobra napkin obj_27 (ventana, confianza 0.26)"
+determinista,DEV-15-Q1,relation,"bottle, strap",unknown,yes,percepción: debajo del umbral,"1 strap perdido(s): debajo del umbral; sobra bottle obj_26 (ventana, confianza 0.33); sobra bottle obj_30 (ventana, confianza 0.32)"
+determinista,DEV-25-Q1,relation,"box, banner",unknown,no,percepción: debajo del umbral,1 banner perdido(s): debajo del umbral
+determinista,DEV-25-Q2,size,elephant,unknown,medium,percepción: debajo del umbral,1 elephant perdido(s): debajo del umbral
+LLM,DEV-1-Q1,count,doorknob,0,2,percepción: debajo del umbral,2 doorknob perdido(s): debajo del umbral
+LLM,DEV-4-Q1,count,trousers,2,4,percepción: localizado con otra clase,1 trousers perdido(s): localizado con otra clase; 1 trousers perdido(s): debajo del umbral
+LLM,DEV-5-Q1,count,fork,1,3,percepción: no localizado,1 fork perdido(s): eliminado por NMS; 1 fork perdido(s): no localizado
+LLM,DEV-7-Q1,count,shoe,1,2,percepción: debajo del umbral,1 shoe perdido(s): debajo del umbral
+LLM,DEV-8-Q1,count,glove,1,2,percepción: debajo del umbral,1 glove perdido(s): debajo del umbral
+LLM,DEV-23-Q1,existence,napkin,yes,no,percepción: falso positivo del detector,"sobra napkin obj_21 (ventana, confianza 0.29); sobra napkin obj_26 (ventana, confianza 0.26); sobra napkin obj_27 (ventana, confianza 0.26)"
+LLM,DEV-15-Q1,relation,"bottle, strap",unknown,yes,percepción: debajo del umbral,"1 strap perdido(s): debajo del umbral; sobra bottle obj_26 (ventana, confianza 0.33); sobra bottle obj_30 (ventana, confianza 0.32)"
+LLM,DEV-25-Q1,relation,"box, banner",unknown,no,percepción: debajo del umbral,1 banner perdido(s): debajo del umbral
+LLM,DEV-25-Q2,size,elephant,unknown,medium,percepción: debajo del umbral,1 elephant perdido(s): debajo del umbral

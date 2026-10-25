@@ -165,11 +165,11 @@ def detectar_multi(img_path, umbral=0.05, k_max=None):
     """Detector final (configuración elegida en 2.9). Recibe SÓLO la imagen y el vocabulario."""
     im = Image.open(img_path).convert("RGB")
     k_max = k_max or K_MAX
-    filas = owl_pasada(im, MODELO, umbral, k_max)[VAR_ELEGIDA]
+    filas = [dict(f, fuente="imagen") for f in owl_pasada(im, MODELO, umbral, k_max)[VAR_ELEGIDA]]   # fuente: linaje (v6)
     if DET_CONFIG["ventanas"]:
-        filas += owl_ventanas(im, MODELO, umbral, k_max)[VAR_ELEGIDA]
+        filas += [dict(f, fuente="ventana") for f in owl_ventanas(im, MODELO, umbral, k_max)[VAR_ELEGIDA]]
     if DET_CONFIG["ensamble_large"]:
-        filas += owl_pasada(im, MODELO_LARGE, umbral, k_max)[VAR_ELEGIDA]
+        filas += [dict(f, fuente="large") for f in owl_pasada(im, MODELO_LARGE, umbral, k_max)[VAR_ELEGIDA]]
     return filas
 
 print(f"\nConfiguración elegida: {g.variante} -> F1 {g.F1:.4f} (línea base 0,660: {g.F1 - 0.660:+.3f})")
@@ -190,3 +190,4 @@ ax = tabla_det.set_index("variante").F1.plot.barh(color=[AZUL if v == g.variante
 ax.axvline(0.50, color="#b03a2e", ls=":", label="mínimo promoción (0,50)")
 ax.set(title="F1 de cajas en desarrollo por variante del detector", xlabel="F1 (mejor k y umbral de cada una)", ylabel="")
 ax.set_xlim(0.4, max(0.8, tabla_det.F1.max() + 0.02)); ax.legend(); plt.show()
+marcar_fase("2 detección")

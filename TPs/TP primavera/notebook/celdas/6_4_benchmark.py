@@ -47,6 +47,8 @@ for p, it, r in zip(preg_bench, interp_b, resp_b):
     q_det = query_determinista(p)
     item_det = next(x for x in preguntas_det[p["image_key"]] if x["question_id"] == p["question_id"])
     fila = dict(question_id=p["question_id"], type=p["type"], interpretacion_ok=misma_consulta(it["query"], q_det),
+                interpretacion_ok_1=misma_consulta(it["query_1"], q_det), motivo_reintento=it["motivo_reintento"],
+                clases_exactas_1=all(n["como"] == "exacta" for n in it["normalizacion_1"]),
                 json_valido_1=it["valida_1"], json_valido_final=it["valida_final"], intentos=it["intentos"],
                 consulta_llm=json.dumps(it["query"], ensure_ascii=False), respuesta_llm=r["normalized_answer"],
                 respuesta_det=item_det["normalized_answer"], redaccion=r.get("redaccion"), status=r["status"])
@@ -57,14 +59,18 @@ for p, it, r in zip(preg_bench, interp_b, resp_b):
     filas_llm.append(fila)
     traza_llm.append(dict(image_id=p["image_key"], question_id=p["question_id"], params=json.dumps(LLM_CONFIG),
                           salida_interprete_1=it["salida_1"], salida_interprete_2=it.get("salida_2", ""), intentos=it["intentos"],
+                          motivo_reintento=it["motivo_reintento"],
                           normalizacion=json.dumps(it["normalizacion"], ensure_ascii=False), ms_interprete=it["ms_por_pregunta"],
                           consulta=json.dumps(it["query"], ensure_ascii=False), status_motor=r["status"],
                           redaccion=r.get("redaccion"), texto_llm=r.get("texto_llm", r["answer"]), ok=it["valida_final"]))
 ev_llm = pd.DataFrame(filas_llm)
 
 print("\nInterpretación (consulta del LLM = consulta de los campos estructurados), por tipo:")
-print(ev_llm.groupby("type").agg(consignas=("interpretacion_ok", "size"), interpretacion=("interpretacion_ok", "mean"),
-                                 json_1er_intento=("json_valido_1", "mean"), json_final=("json_valido_final", "mean")).round(3).to_string())
+print(ev_llm.groupby("type").agg(consignas=("interpretacion_ok", "size"), interpretacion_1er_intento=("interpretacion_ok_1", "mean"),
+                                 interpretacion=("interpretacion_ok", "mean"), json_1er_intento=("json_valido_1", "mean"),
+                                 json_final=("json_valido_final", "mean")).round(3).to_string())
+print("Reintentos por motivo:", ev_llm.motivo_reintento.replace("", "sin reintento").value_counts().to_dict())
+print(f"Clases escritas por el LLM exactamente como en el vocabulario (1.er intento, sin normalizar): {ev_llm.clases_exactas_1.mean():.1%}")
 cerr = ev_llm[ev_llm.type != "description"]
 print(f"\nPreguntas cerradas ({len(cerr)}): exactitud LLM {cerr.correcta_llm.astype(bool).mean():.3f} | determinista {cerr.correcta_det.astype(bool).mean():.3f} | "
       f"misma respuesta que el determinista: {cerr.igual_det.astype(bool).mean():.1%}")

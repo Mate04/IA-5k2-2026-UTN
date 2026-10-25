@@ -1,0 +1,61 @@
+question_id,image_id,type,clases,predicado,respuesta,status,confianza,n_evidencia
+DEV-1-DESC,tpi_0001,description,,,"Se detectaron 26 objetos de 12 clases. Lo más frecuente: 5 drawer (sobre todo en center), 4 knob (sobre todo en center), 3 faucet (sobre todo en center), 3 vent (sobre todo en top_center), 2 handle (sobre todo en center), 2 cabinet (sobre todo en bottom_center). El objeto que más área ocupa es mirror (top_center, large).",ok,0.3889,20
+DEV-1-Q1,tpi_0001,count,doorknob,,0,ok,0.5,0
+DEV-1-Q2,tpi_0001,existence,wall socket,,yes,ok,0.5593,1
+DEV-2-DESC,tpi_0002,description,,,"Se detectaron 37 objetos de 16 clases. Lo más frecuente: 7 flower arrangement (sobre todo en top_right), 4 person (sobre todo en top_right), 3 necktie (sobre todo en top_right), 3 watch (sobre todo en top_center), 3 bracelet (sobre todo en top_center), 3 shirt (sobre todo en top_right). El objeto que más área ocupa es banner (top_left, large).",ok,0.329,24
+DEV-2-Q1,tpi_0002,count,sock,,2,ok,0.5407,2
+DEV-2-Q2,tpi_0002,existence,tennis racket,,yes,ok,0.7603,2
+DEV-3-DESC,tpi_0003,description,,,"Se detectaron 25 objetos de 15 clases. Lo más frecuente: 4 book (sobre todo en center), 3 curtain (sobre todo en top_right), 2 vase (sobre todo en middle_left), 2 person (sobre todo en center), 2 laptop (sobre todo en middle_right), 2 blanket (sobre todo en bottom_center). El objeto que más área ocupa es curtain (top_left, large).",ok,0.4018,15
+DEV-3-Q1,tpi_0003,count,vase,,2,ok,0.6417,2
+DEV-3-Q2,tpi_0003,existence,belt,,no,ok,0.5,0
+DEV-4-DESC,tpi_0004,description,,,"Se detectaron 23 objetos de 14 clases. Lo más frecuente: 4 skateboard (sobre todo en bottom_center), 2 helmet (sobre todo en center), 2 jersey (sobre todo en bottom_center), 2 baseball glove (sobre todo en bottom_center), 2 short pants (sobre todo en center), 2 trousers (sobre todo en bottom_center). El objeto que más área ocupa es person (bottom_center, medium).",ok,0.361,15
+DEV-4-Q1,tpi_0004,count,trousers,,2,ok,0.3216,2
+DEV-4-Q2,tpi_0004,existence,sofa,,no,ok,0.5,0
+DEV-6-DESC,tpi_0006,description,,,"Se detectaron 19 objetos de 14 clases. Lo más frecuente: 2 earring (sobre todo en top_left), 2 handbag (sobre todo en center), 2 necklace (sobre todo en top_center), 2 suitcase (sobre todo en bottom_left), 2 strap (sobre todo en center), 1 tag (bottom_left). El objeto que más área ocupa es bench (center, large).",ok,0.4621,12
+DEV-6-Q1,tpi_0006,count,handbag,,2,ok,0.5638,2
+DEV-6-Q2,tpi_0006,existence,plate,,no,ok,0.5,0
+DEV-5-DESC,tpi_0005,description,,,"Se detectaron 35 objetos de 19 clases. Lo más frecuente: 5 earring (sobre todo en top_center), 4 plate (sobre todo en bottom_center), 3 dress (sobre todo en top_center), 3 jean (sobre todo en middle_right), 3 person (sobre todo en center), 2 bracelet (sobre todo en middle_left). El objeto que más área ocupa es person (center, large).",ok,0.3381,20
+DEV-5-Q1,tpi_0005,count,fork,,1,ok,0.5305,1
+DEV-5-Q2,tpi_0005,relation,"clock, ring",above,yes,ambiguous,0.2215,2
+DEV-7-DESC,tpi_0007,description,,,"Se detectaron 13 objetos de 11 clases. Lo más frecuente: 3 wheel (sobre todo en bottom_center), 1 skateboard (bottom_center), 1 jean (middle_right), 1 bench (center), 1 baseball cap (top_center), 1 shirt (center). El objeto que más área ocupa es person (center, large).",ok,0.4872,9
+DEV-7-Q1,tpi_0007,count,shoe,,1,ok,0.2555,1
+DEV-7-Q2,tpi_0007,relation,"shirt, skateboard",above,yes,ok,0.4486,2
+DEV-8-DESC,tpi_0008,description,,,"Se detectaron 15 objetos de 13 clases. Lo más frecuente: 2 baseball glove (sobre todo en top_center), 2 shoe (sobre todo en bottom_center), 1 baseball cap (top_center), 1 belt (center), 1 glove (middle_right), 1 jersey (center). El objeto que más área ocupa es person (center, large).",ok,0.5021,9
+DEV-8-Q1,tpi_0008,count,glove,,1,ok,0.5503,1
+DEV-8-Q2,tpi_0008,relation,"baseball cap, baseball glove",above,yes,ambiguous,0.4624,2
+DEV-9-DESC,tpi_0009,description,,,"Se detectaron 13 objetos de 10 clases. Lo más frecuente: 2 flowerpot (sobre todo en middle_right), 2 pillow (sobre todo en bottom_right), 2 wall socket (sobre todo en middle_left), 1 television set (top_left), 1 sofa (bottom_right), 1 bench (center). El objeto que más área ocupa es television set (top_left, large).",ok,0.4182,9
+DEV-9-Q1,tpi_0009,count,pillow,,2,ok,0.3014,2
+DEV-9-Q2,tpi_0009,relation,"computer keyboard, flowerpot",right_of,no,ambiguous,0.1658,2
+DEV-10-DESC,tpi_0010,description,,,"Se detectaron 33 objetos de 22 clases. Lo más frecuente: 4 pillow (sobre todo en top_center), 3 belt (sobre todo en middle_right), 2 jean (sobre todo en middle_right), 2 drawer (sobre todo en middle_left), 2 teddy bear (sobre todo en top_center), 2 plastic bag (sobre todo en middle_left). El objeto que más área ocupa es jean (middle_right, large).",ok,0.4413,15
+DEV-10-Q1,tpi_0010,count,handle,,2,ok,0.3331,2
+DEV-10-Q2,tpi_0010,relation,"laptop, jean",right_of,no,ambiguous,0.3734,2
+DEV-11-DESC,tpi_0011,description,,,"Se detectaron 14 objetos de 11 clases. Lo más frecuente: 3 computer monitor (sobre todo en center), 2 wall socket (sobre todo en bottom_center), 1 computer keyboard (bottom_center), 1 laptop (bottom_right), 1 computer mouse (bottom_right), 1 flowerpot (center). El objeto que más área ocupa es curtain (top_right, large).",ok,0.495,10
+DEV-11-Q1,tpi_0011,existence,computer mouse,,yes,ok,0.6626,1
+DEV-11-Q2,tpi_0011,position,cell phone,,bottom_left,ok,0.3563,1
+DEV-12-DESC,tpi_0012,description,,,"Se detectaron 26 objetos de 14 clases. Lo más frecuente: 5 signboard (sobre todo en top_right), 4 boat (sobre todo en bottom_right), 4 wheel (sobre todo en bottom_center), 2 sock (sobre todo en middle_left), 2 plastic bag (sobre todo en center), 1 short pants (middle_left). El objeto que más área ocupa es signboard (top_right, large).",ok,0.3891,18
+DEV-12-Q1,tpi_0012,existence,signboard,,yes,ok,0.5024,5
+DEV-12-Q2,tpi_0012,position,bench,,center,ok,0.5119,1
+DEV-14-DESC,tpi_0014,description,,,"Se detectaron 60 objetos de 25 clases. Lo más frecuente: 14 book (sobre todo en middle_left), 5 knob (sobre todo en center), 4 wall socket (sobre todo en center), 4 cabinet (sobre todo en middle_left), 3 sofa (sobre todo en bottom_left), 3 doorknob (sobre todo en middle_left). El objeto que más área ocupa es sofa (bottom_left, large).",ok,0.3126,33
+DEV-14-Q1,tpi_0014,existence,television set,,yes,ok,0.6813,1
+DEV-14-Q2,tpi_0014,position,backpack,,middle_left,ok,0.4825,1
+DEV-20-DESC,tpi_0020,description,,,"Se detectaron 16 objetos de 10 clases. Lo más frecuente: 3 sunglasses (sobre todo en bottom_right), 3 person (sobre todo en bottom_right), 2 surfboard (sobre todo en middle_right), 2 short pants (sobre todo en bottom_right), 1 airplane (top_left), 1 watch (bottom_right). El objeto que más área ocupa es surfboard (middle_right, large).",ok,0.4699,12
+DEV-20-Q1,tpi_0020,existence,dog,,no,ok,0.5,0
+DEV-20-Q2,tpi_0020,position,surfboard,,middle_right,ambiguous,0.3747,1
+DEV-23-DESC,tpi_0023,description,,,"Se detectaron 27 objetos de 16 clases. Lo más frecuente: 5 flower arrangement (sobre todo en middle_left), 4 tablecloth (sobre todo en middle_left), 3 napkin (sobre todo en middle_left), 2 table (sobre todo en bottom_center), 2 chair (sobre todo en top_left), 1 earring (top_right). El objeto que más área ocupa es tablecloth (bottom_center, large).",ok,0.3772,17
+DEV-23-Q1,tpi_0023,existence,napkin,,yes,ok,0.2857,3
+DEV-23-Q2,tpi_0023,position,knife,,center,ok,0.2962,1
+DEV-15-DESC,tpi_0015,description,,,"Se detectaron 55 objetos de 27 clases. Lo más frecuente: 6 cup (sobre todo en center), 5 person (sobre todo en center), 4 vent (sobre todo en top_right), 3 knife (sobre todo en bottom_left), 3 bottle (sobre todo en middle_left), 3 cell phone (sobre todo en middle_left). El objeto que más área ocupa es person (middle_right, large).",ok,0.3627,24
+DEV-15-Q1,tpi_0015,relation,"bottle, strap",left_of,unknown,insufficient_information,0.0,0
+DEV-15-Q2,tpi_0015,size,necklace,,small,ok,0.5334,1
+DEV-19-DESC,tpi_0019,description,,,"Se detectaron 37 objetos de 23 clases. Lo más frecuente: 4 plastic bag (sobre todo en bottom_left), 3 handle (sobre todo en middle_left), 3 blanket (sobre todo en top_right), 2 spectacles (sobre todo en center), 2 cup (sobre todo en center), 2 shirt (sobre todo en bottom_center). El objeto que más área ocupa es bed (middle_right, large).",ok,0.3496,17
+DEV-19-Q1,tpi_0019,relation,"plastic bag, bed",left_of,yes,ambiguous,0.1442,2
+DEV-19-Q2,tpi_0019,size,watch,,small,ok,0.6164,1
+DEV-22-DESC,tpi_0022,description,,,"Se detectaron 34 objetos de 18 clases. Lo más frecuente: 6 horse (sobre todo en middle_left), 5 pole (sobre todo en top_center), 3 boot (sobre todo en bottom_right), 2 banner (sobre todo en top_left), 2 hat (sobre todo en top_center), 2 shirt (sobre todo en center). El objeto que más área ocupa es horse (center, large).",ok,0.3617,20
+DEV-22-Q1,tpi_0022,relation,"awning, cow",below,no,ok,0.3809,2
+DEV-22-Q2,tpi_0022,size,spectacles,,small,ok,0.4609,1
+DEV-24-DESC,tpi_0024,description,,,"Se detectaron 46 objetos de 22 clases. Lo más frecuente: 4 knob (sobre todo en middle_right), 4 drawer (sobre todo en middle_right), 4 button (sobre todo en top_center), 4 doorknob (sobre todo en middle_right), 3 person (sobre todo en middle_left), 3 bottle (sobre todo en bottom_left). El objeto que más área ocupa es tablecloth (bottom_center, large).",ok,0.381,23
+DEV-24-Q1,tpi_0024,relation,"refrigerator, bowl",right_of,no,ok,0.4658,2
+DEV-24-Q2,tpi_0024,size,tablecloth,,large,ok,0.5889,1
+DEV-25-DESC,tpi_0025,description,,,"Se detectaron 26 objetos de 21 clases. Lo más frecuente: 3 drawer (sobre todo en middle_right), 2 faucet (sobre todo en top_right), 2 sink (sobre todo en top_right), 2 handle (sobre todo en top_center), 1 wall socket (middle_left), 1 flower arrangement (top_right). El objeto que más área ocupa es person (middle_left, large).",ok,0.3824,12
+DEV-25-Q1,tpi_0025,relation,"box, banner",below,unknown,insufficient_information,0.0,0
+DEV-25-Q2,tpi_0025,size,elephant,,unknown,insufficient_information,0.0,0

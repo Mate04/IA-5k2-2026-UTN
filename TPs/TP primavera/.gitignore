@@ -5,6 +5,8 @@ salidas_local/
 # Envíos completos (pesan > 10 MB cada uno; se regeneran corriendo la notebook)
 kaggle_outputs/**/submission.csv
 kaggle_outputs/**/solution.csv
+# Detecciones crudas de desarrollo (3-8 MB cada una; las usa dev/correr_local.py, se bajan de la salida de Kaggle)
+kaggle_outputs/**/*.pkl
 
 # Pesos de modelos descargados
 *.pt

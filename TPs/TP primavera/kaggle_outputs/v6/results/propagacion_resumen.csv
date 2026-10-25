@@ -1,0 +1,9 @@
+etapa,chico (<32²),mediano,grande (≥96²),total,%
+OK,459,440,174,1073,59.9
+máscara mala (SAM2),64,12,7,83,4.6
+caja usada por otro objeto,10,4,2,16,0.9
+eliminado por NMS,10,1,3,14,0.8
+debajo del umbral,299,117,37,453,25.3
+localizado con otra clase,14,14,3,31,1.7
+no localizado,111,9,0,120,6.7
+total,967,597,226,1790,100.0
