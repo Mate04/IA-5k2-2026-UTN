@@ -177,3 +177,5 @@ pyrightconfig.json
 
 # Videos (GitHub rechaza archivos de mas de 100 MB)
 *.mp4
+
+/TPs/TP primavera/
