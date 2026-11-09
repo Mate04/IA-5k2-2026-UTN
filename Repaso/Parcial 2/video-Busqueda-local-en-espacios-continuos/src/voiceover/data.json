@@ -1,0 +1,5994 @@
+{
+  "intro": {
+    "file": "voiceover/intro.mp3",
+    "duration": 20.1,
+    "cues": {
+      "reina": 5.28,
+      "continuo": 12.8
+    },
+    "words": [
+      {
+        "text": "Sección",
+        "start": 0,
+        "end": 0.48
+      },
+      {
+        "text": "cuatro",
+        "start": 0.64,
+        "end": 0.96
+      },
+      {
+        "text": "punto",
+        "start": 1.04,
+        "end": 1.36
+      },
+      {
+        "text": "dos:",
+        "start": 1.44,
+        "end": 2.32
+      },
+      {
+        "text": "búsqueda",
+        "start": 2.4,
+        "end": 2.8
+      },
+      {
+        "text": "local",
+        "start": 2.88,
+        "end": 3.28
+      },
+      {
+        "text": "en",
+        "start": 3.36,
+        "end": 3.44
+      },
+      {
+        "text": "espacios",
+        "start": 3.56,
+        "end": 4
+      },
+      {
+        "text": "continuos.",
+        "start": 4.08,
+        "end": 5
+      },
+      {
+        "text": "Hasta",
+        "start": 5.28,
+        "end": 5.52
+      },
+      {
+        "text": "ahora,",
+        "start": 5.6,
+        "end": 6.16
+      },
+      {
+        "text": "la",
+        "start": 6.24,
+        "end": 6.32
+      },
+      {
+        "text": "búsqueda",
+        "start": 6.4,
+        "end": 6.72
+      },
+      {
+        "text": "local",
+        "start": 6.8,
+        "end": 7.12
+      },
+      {
+        "text": "se",
+        "start": 7.2,
+        "end": 7.28
+      },
+      {
+        "text": "movía",
+        "start": 7.36,
+        "end": 7.68
+      },
+      {
+        "text": "entre",
+        "start": 7.8,
+        "end": 7.92
+      },
+      {
+        "text": "estados",
+        "start": 8.04,
+        "end": 8.32
+      },
+      {
+        "text": "discretos,",
+        "start": 8.4,
+        "end": 9.44
+      },
+      {
+        "text": "como",
+        "start": 9.56,
+        "end": 9.68
+      },
+      {
+        "text": "mover",
+        "start": 9.72,
+        "end": 10
+      },
+      {
+        "text": "una",
+        "start": 10.08,
+        "end": 10.16
+      },
+      {
+        "text": "reina",
+        "start": 10.24,
+        "end": 10.64
+      },
+      {
+        "text": "a",
+        "start": 10.72,
+        "end": 10.8
+      },
+      {
+        "text": "otra",
+        "start": 10.88,
+        "end": 11.04
+      },
+      {
+        "text": "casilla",
+        "start": 11.12,
+        "end": 11.52
+      },
+      {
+        "text": "del",
+        "start": 11.6,
+        "end": 11.68
+      },
+      {
+        "text": "tablero.",
+        "start": 11.76,
+        "end": 12.52
+      },
+      {
+        "text": "Pero",
+        "start": 12.8,
+        "end": 12.96
+      },
+      {
+        "text": "la",
+        "start": 13.04,
+        "end": 13.12
+      },
+      {
+        "text": "mayoría",
+        "start": 13.2,
+        "end": 13.6
+      },
+      {
+        "text": "de",
+        "start": 13.64,
+        "end": 13.68
+      },
+      {
+        "text": "los",
+        "start": 13.76,
+        "end": 13.84
+      },
+      {
+        "text": "problemas",
+        "start": 13.92,
+        "end": 14.4
+      },
+      {
+        "text": "del",
+        "start": 14.48,
+        "end": 14.56
+      },
+      {
+        "text": "mundo",
+        "start": 14.6,
+        "end": 14.8
+      },
+      {
+        "text": "real",
+        "start": 14.88,
+        "end": 15.2
+      },
+      {
+        "text": "son",
+        "start": 15.36,
+        "end": 15.52
+      },
+      {
+        "text": "continuos.",
+        "start": 15.6,
+        "end": 16.56
+      },
+      {
+        "text": "Veamos",
+        "start": 16.8,
+        "end": 17.2
+      },
+      {
+        "text": "qué",
+        "start": 17.28,
+        "end": 17.36
+      },
+      {
+        "text": "cambia,",
+        "start": 17.44,
+        "end": 18.16
+      },
+      {
+        "text": "y",
+        "start": 18.2,
+        "end": 18.24
+      },
+      {
+        "text": "qué",
+        "start": 18.32,
+        "end": 18.4
+      },
+      {
+        "text": "herramientas",
+        "start": 18.48,
+        "end": 19.04
+      },
+      {
+        "text": "usamos.",
+        "start": 19.12,
+        "end": 19.96
+      }
+    ]
+  },
+  "infinito": {
+    "file": "voiceover/infinito.mp3",
+    "duration": 36.32,
+    "cues": {
+      "discreto": 1.78,
+      "continuo": 8.38,
+      "infinito": 16.22,
+      "rompe": 21.34,
+      "excepcion": 25.5
+    },
+    "words": [
+      {
+        "text": "En",
+        "start": 0.14,
+        "end": 0.22
+      },
+      {
+        "text": "un",
+        "start": 0.3,
+        "end": 0.38
+      },
+      {
+        "text": "espacio",
+        "start": 0.5,
+        "end": 0.78
+      },
+      {
+        "text": "discreto,",
+        "start": 0.86,
+        "end": 1.74
+      },
+      {
+        "text": "cada",
+        "start": 1.78,
+        "end": 1.98
+      },
+      {
+        "text": "estado",
+        "start": 2.06,
+        "end": 2.46
+      },
+      {
+        "text": "tiene",
+        "start": 2.54,
+        "end": 2.7
+      },
+      {
+        "text": "una",
+        "start": 2.78,
+        "end": 2.86
+      },
+      {
+        "text": "cantidad",
+        "start": 2.94,
+        "end": 3.34
+      },
+      {
+        "text": "finita",
+        "start": 3.5,
+        "end": 3.9
+      },
+      {
+        "text": "de",
+        "start": 3.98,
+        "end": 4.02
+      },
+      {
+        "text": "vecinos:",
+        "start": 4.06,
+        "end": 5.1
+      },
+      {
+        "text": "los",
+        "start": 5.18,
+        "end": 5.26
+      },
+      {
+        "text": "podés",
+        "start": 5.34,
+        "end": 5.58
+      },
+      {
+        "text": "revisar",
+        "start": 5.66,
+        "end": 6.06
+      },
+      {
+        "text": "todos",
+        "start": 6.14,
+        "end": 6.62
+      },
+      {
+        "text": "y",
+        "start": 6.66,
+        "end": 6.7
+      },
+      {
+        "text": "quedarte",
+        "start": 6.78,
+        "end": 7.18
+      },
+      {
+        "text": "con",
+        "start": 7.26,
+        "end": 7.34
+      },
+      {
+        "text": "el",
+        "start": 7.38,
+        "end": 7.42
+      },
+      {
+        "text": "mejor.",
+        "start": 7.5,
+        "end": 7.9
+      },
+      {
+        "text": "En",
+        "start": 8.38,
+        "end": 8.46
+      },
+      {
+        "text": "un",
+        "start": 8.54,
+        "end": 8.62
+      },
+      {
+        "text": "espacio",
+        "start": 8.74,
+        "end": 9.02
+      },
+      {
+        "text": "continuo,",
+        "start": 9.1,
+        "end": 9.98
+      },
+      {
+        "text": "desde",
+        "start": 10.06,
+        "end": 10.3
+      },
+      {
+        "text": "cualquier",
+        "start": 10.38,
+        "end": 10.78
+      },
+      {
+        "text": "punto",
+        "start": 10.86,
+        "end": 11.18
+      },
+      {
+        "text": "te",
+        "start": 11.26,
+        "end": 11.34
+      },
+      {
+        "text": "podés",
+        "start": 11.42,
+        "end": 11.74
+      },
+      {
+        "text": "mover",
+        "start": 11.82,
+        "end": 11.98
+      },
+      {
+        "text": "una",
+        "start": 12.06,
+        "end": 12.22
+      },
+      {
+        "text": "distancia",
+        "start": 12.34,
+        "end": 12.78
+      },
+      {
+        "text": "tan",
+        "start": 12.94,
+        "end": 13.1
+      },
+      {
+        "text": "chiquita",
+        "start": 13.18,
+        "end": 13.58
+      },
+      {
+        "text": "como",
+        "start": 13.66,
+        "end": 13.82
+      },
+      {
+        "text": "quieras,",
+        "start": 13.9,
+        "end": 14.54
+      },
+      {
+        "text": "en",
+        "start": 14.58,
+        "end": 14.62
+      },
+      {
+        "text": "cualquier",
+        "start": 14.7,
+        "end": 15.1
+      },
+      {
+        "text": "dirección.",
+        "start": 15.18,
+        "end": 15.82
+      },
+      {
+        "text": "Hay",
+        "start": 16.22,
+        "end": 16.46
+      },
+      {
+        "text": "infinitos",
+        "start": 16.54,
+        "end": 17.18
+      },
+      {
+        "text": "sucesores:",
+        "start": 17.26,
+        "end": 18.38
+      },
+      {
+        "text": "el",
+        "start": 18.46,
+        "end": 18.54
+      },
+      {
+        "text": "factor",
+        "start": 18.62,
+        "end": 18.94
+      },
+      {
+        "text": "de",
+        "start": 18.98,
+        "end": 19.02
+      },
+      {
+        "text": "ramificación",
+        "start": 19.1,
+        "end": 19.9
+      },
+      {
+        "text": "es",
+        "start": 19.98,
+        "end": 20.14
+      },
+      {
+        "text": "infinito.",
+        "start": 20.22,
+        "end": 20.86
+      },
+      {
+        "text": "Por",
+        "start": 21.34,
+        "end": 21.42
+      },
+      {
+        "text": "eso",
+        "start": 21.5,
+        "end": 21.66
+      },
+      {
+        "text": "la",
+        "start": 21.74,
+        "end": 21.82
+      },
+      {
+        "text": "mayoría",
+        "start": 21.9,
+        "end": 22.3
+      },
+      {
+        "text": "de",
+        "start": 22.38,
+        "end": 22.42
+      },
+      {
+        "text": "los",
+        "start": 22.46,
+        "end": 22.54
+      },
+      {
+        "text": "algoritmos",
+        "start": 22.62,
+        "end": 23.18
+      },
+      {
+        "text": "que",
+        "start": 23.22,
+        "end": 23.26
+      },
+      {
+        "text": "vimos",
+        "start": 23.34,
+        "end": 23.74
+      },
+      {
+        "text": "no",
+        "start": 23.9,
+        "end": 23.98
+      },
+      {
+        "text": "sirven",
+        "start": 24.14,
+        "end": 24.46
+      },
+      {
+        "text": "tal",
+        "start": 24.54,
+        "end": 24.62
+      },
+      {
+        "text": "cual.",
+        "start": 24.7,
+        "end": 25.02
+      },
+      {
+        "text": "Las",
+        "start": 25.5,
+        "end": 25.66
+      },
+      {
+        "text": "excepciones",
+        "start": 25.74,
+        "end": 26.38
+      },
+      {
+        "text": "son",
+        "start": 26.54,
+        "end": 26.7
+      },
+      {
+        "text": "el",
+        "start": 26.74,
+        "end": 26.78
+      },
+      {
+        "text": "ascenso",
+        "start": 26.86,
+        "end": 27.26
+      },
+      {
+        "text": "de",
+        "start": 27.34,
+        "end": 27.42
+      },
+      {
+        "text": "colina",
+        "start": 27.5,
+        "end": 27.82
+      },
+      {
+        "text": "de",
+        "start": 27.86,
+        "end": 27.9
+      },
+      {
+        "text": "primera",
+        "start": 27.98,
+        "end": 28.3
+      },
+      {
+        "text": "opción",
+        "start": 28.42,
+        "end": 28.78
+      },
+      {
+        "text": "y",
+        "start": 28.94,
+        "end": 29.02
+      },
+      {
+        "text": "el",
+        "start": 29.06,
+        "end": 29.1
+      },
+      {
+        "text": "recocido",
+        "start": 29.18,
+        "end": 29.66
+      },
+      {
+        "text": "simulado,",
+        "start": 29.74,
+        "end": 30.7
+      },
+      {
+        "text": "porque",
+        "start": 30.78,
+        "end": 31.02
+      },
+      {
+        "text": "no",
+        "start": 31.1,
+        "end": 31.18
+      },
+      {
+        "text": "necesitan",
+        "start": 31.26,
+        "end": 31.74
+      },
+      {
+        "text": "mirar",
+        "start": 31.82,
+        "end": 32.14
+      },
+      {
+        "text": "todos",
+        "start": 32.3,
+        "end": 32.54
+      },
+      {
+        "text": "los",
+        "start": 32.62,
+        "end": 32.7
+      },
+      {
+        "text": "vecinos:",
+        "start": 32.78,
+        "end": 33.74
+      },
+      {
+        "text": "les",
+        "start": 33.82,
+        "end": 33.9
+      },
+      {
+        "text": "alcanza",
+        "start": 33.98,
+        "end": 34.38
+      },
+      {
+        "text": "con",
+        "start": 34.46,
+        "end": 34.62
+      },
+      {
+        "text": "elegir",
+        "start": 34.66,
+        "end": 34.94
+      },
+      {
+        "text": "uno",
+        "start": 35.18,
+        "end": 35.34
+      },
+      {
+        "text": "al",
+        "start": 35.42,
+        "end": 35.5
+      },
+      {
+        "text": "azar.",
+        "start": 35.7,
+        "end": 36.18
+      }
+    ]
+  },
+  "aeropuertos": {
+    "file": "voiceover/aeropuertos.mp3",
+    "duration": 38.3,
+    "cues": {
+      "mapa": 2.14,
+      "asignacion": 6.62,
+      "estado": 15.5,
+      "seis": 25.66,
+      "mover": 33.34
+    },
+    "words": [
+      {
+        "text": "El",
+        "start": 0.14,
+        "end": 0.22
+      },
+      {
+        "text": "libro",
+        "start": 0.34,
+        "end": 0.62
+      },
+      {
+        "text": "usa",
+        "start": 0.7,
+        "end": 0.94
+      },
+      {
+        "text": "este",
+        "start": 1.06,
+        "end": 1.18
+      },
+      {
+        "text": "ejemplo.",
+        "start": 1.26,
+        "end": 1.94
+      },
+      {
+        "text": "Queremos",
+        "start": 2.14,
+        "end": 2.54
+      },
+      {
+        "text": "ubicar",
+        "start": 2.62,
+        "end": 3.1
+      },
+      {
+        "text": "tres",
+        "start": 3.22,
+        "end": 3.34
+      },
+      {
+        "text": "aeropuertos",
+        "start": 3.38,
+        "end": 3.98
+      },
+      {
+        "text": "nuevos",
+        "start": 4.06,
+        "end": 4.46
+      },
+      {
+        "text": "en",
+        "start": 4.54,
+        "end": 4.7
+      },
+      {
+        "text": "cualquier",
+        "start": 4.78,
+        "end": 5.1
+      },
+      {
+        "text": "lugar",
+        "start": 5.18,
+        "end": 5.42
+      },
+      {
+        "text": "de",
+        "start": 5.5,
+        "end": 5.58
+      },
+      {
+        "text": "Rumania.",
+        "start": 5.62,
+        "end": 6.38
+      },
+      {
+        "text": "Cada",
+        "start": 6.62,
+        "end": 6.86
+      },
+      {
+        "text": "ciudad",
+        "start": 6.94,
+        "end": 7.34
+      },
+      {
+        "text": "usa",
+        "start": 7.42,
+        "end": 7.66
+      },
+      {
+        "text": "el",
+        "start": 7.7,
+        "end": 7.74
+      },
+      {
+        "text": "aeropuerto",
+        "start": 7.78,
+        "end": 8.3
+      },
+      {
+        "text": "que",
+        "start": 8.38,
+        "end": 8.46
+      },
+      {
+        "text": "le",
+        "start": 8.5,
+        "end": 8.54
+      },
+      {
+        "text": "queda",
+        "start": 8.62,
+        "end": 8.86
+      },
+      {
+        "text": "más",
+        "start": 8.94,
+        "end": 9.1
+      },
+      {
+        "text": "cerca,",
+        "start": 9.18,
+        "end": 9.98
+      },
+      {
+        "text": "y",
+        "start": 10.02,
+        "end": 10.06
+      },
+      {
+        "text": "queremos",
+        "start": 10.14,
+        "end": 10.54
+      },
+      {
+        "text": "minimizar",
+        "start": 10.62,
+        "end": 11.1
+      },
+      {
+        "text": "la",
+        "start": 11.18,
+        "end": 11.26
+      },
+      {
+        "text": "suma",
+        "start": 11.42,
+        "end": 11.58
+      },
+      {
+        "text": "de",
+        "start": 11.66,
+        "end": 11.74
+      },
+      {
+        "text": "las",
+        "start": 11.82,
+        "end": 11.9
+      },
+      {
+        "text": "distancias",
+        "start": 12.02,
+        "end": 12.46
+      },
+      {
+        "text": "al",
+        "start": 12.54,
+        "end": 12.62
+      },
+      {
+        "text": "cuadrado",
+        "start": 12.66,
+        "end": 13.18
+      },
+      {
+        "text": "de",
+        "start": 13.3,
+        "end": 13.42
+      },
+      {
+        "text": "cada",
+        "start": 13.46,
+        "end": 13.66
+      },
+      {
+        "text": "ciudad",
+        "start": 13.74,
+        "end": 14.14
+      },
+      {
+        "text": "a",
+        "start": 14.22,
+        "end": 14.3
+      },
+      {
+        "text": "su",
+        "start": 14.34,
+        "end": 14.38
+      },
+      {
+        "text": "aeropuerto.",
+        "start": 14.46,
+        "end": 15.26
+      },
+      {
+        "text": "¿Cuál",
+        "start": 15.5,
+        "end": 15.74
+      },
+      {
+        "text": "es",
+        "start": 15.78,
+        "end": 15.82
+      },
+      {
+        "text": "el",
+        "start": 15.9,
+        "end": 15.98
+      },
+      {
+        "text": "estado?",
+        "start": 16.22,
+        "end": 16.74
+      },
+      {
+        "text": "Las",
+        "start": 17.02,
+        "end": 17.18
+      },
+      {
+        "text": "coordenadas",
+        "start": 17.26,
+        "end": 17.82
+      },
+      {
+        "text": "de",
+        "start": 17.86,
+        "end": 17.9
+      },
+      {
+        "text": "los",
+        "start": 17.98,
+        "end": 18.06
+      },
+      {
+        "text": "tres",
+        "start": 18.14,
+        "end": 18.3
+      },
+      {
+        "text": "aeropuertos:",
+        "start": 18.38,
+        "end": 19.58
+      },
+      {
+        "text": "equis",
+        "start": 19.66,
+        "end": 19.98
+      },
+      {
+        "text": "uno,",
+        "start": 20.06,
+        "end": 20.62
+      },
+      {
+        "text": "ye",
+        "start": 20.74,
+        "end": 20.86
+      },
+      {
+        "text": "uno,",
+        "start": 20.94,
+        "end": 21.58
+      },
+      {
+        "text": "equis",
+        "start": 21.62,
+        "end": 21.9
+      },
+      {
+        "text": "dos,",
+        "start": 22.1,
+        "end": 22.54
+      },
+      {
+        "text": "ye",
+        "start": 22.62,
+        "end": 22.7
+      },
+      {
+        "text": "dos,",
+        "start": 22.78,
+        "end": 23.5
+      },
+      {
+        "text": "equis",
+        "start": 23.54,
+        "end": 23.82
+      },
+      {
+        "text": "tres,",
+        "start": 23.98,
+        "end": 24.46
+      },
+      {
+        "text": "ye",
+        "start": 24.58,
+        "end": 24.7
+      },
+      {
+        "text": "tres.",
+        "start": 24.86,
+        "end": 25.58
+      },
+      {
+        "text": "Seis",
+        "start": 25.66,
+        "end": 25.9
+      },
+      {
+        "text": "números:",
+        "start": 25.98,
+        "end": 26.94
+      },
+      {
+        "text": "es",
+        "start": 27.02,
+        "end": 27.1
+      },
+      {
+        "text": "un",
+        "start": 27.18,
+        "end": 27.22
+      },
+      {
+        "text": "espacio",
+        "start": 27.26,
+        "end": 27.66
+      },
+      {
+        "text": "de",
+        "start": 27.74,
+        "end": 27.9
+      },
+      {
+        "text": "seis",
+        "start": 27.98,
+        "end": 28.14
+      },
+      {
+        "text": "dimensiones,",
+        "start": 28.22,
+        "end": 29.18
+      },
+      {
+        "text": "o",
+        "start": 29.22,
+        "end": 29.26
+      },
+      {
+        "text": "de",
+        "start": 29.3,
+        "end": 29.34
+      },
+      {
+        "text": "seis",
+        "start": 29.5,
+        "end": 29.66
+      },
+      {
+        "text": "variables,",
+        "start": 29.74,
+        "end": 30.7
+      },
+      {
+        "text": "que",
+        "start": 30.74,
+        "end": 30.78
+      },
+      {
+        "text": "escribimos",
+        "start": 30.86,
+        "end": 31.42
+      },
+      {
+        "text": "como",
+        "start": 31.5,
+        "end": 31.66
+      },
+      {
+        "text": "un",
+        "start": 31.7,
+        "end": 31.74
+      },
+      {
+        "text": "vector",
+        "start": 31.82,
+        "end": 32.14
+      },
+      {
+        "text": "equis.",
+        "start": 32.38,
+        "end": 32.86
+      },
+      {
+        "text": "Moverse",
+        "start": 33.34,
+        "end": 33.74
+      },
+      {
+        "text": "en",
+        "start": 33.82,
+        "end": 33.9
+      },
+      {
+        "text": "este",
+        "start": 33.98,
+        "end": 34.06
+      },
+      {
+        "text": "espacio",
+        "start": 34.14,
+        "end": 34.7
+      },
+      {
+        "text": "es,",
+        "start": 34.78,
+        "end": 35.26
+      },
+      {
+        "text": "literalmente,",
+        "start": 35.5,
+        "end": 36.38
+      },
+      {
+        "text": "mover",
+        "start": 36.46,
+        "end": 36.7
+      },
+      {
+        "text": "aeropuertos",
+        "start": 36.78,
+        "end": 37.42
+      },
+      {
+        "text": "en",
+        "start": 37.46,
+        "end": 37.5
+      },
+      {
+        "text": "el",
+        "start": 37.54,
+        "end": 37.58
+      },
+      {
+        "text": "mapa.",
+        "start": 37.66,
+        "end": 38.06
+      }
+    ]
+  },
+  "objetivo": {
+    "file": "voiceover/objetivo.mp3",
+    "duration": 36.56,
+    "cues": {
+      "ci": 2.56,
+      "formula": 8.32,
+      "local": 18.28,
+      "cambia": 24.08,
+      "global": 32.8
+    },
+    "words": [
+      {
+        "text": "Ahora,",
+        "start": 0.24,
+        "end": 0.8
+      },
+      {
+        "text": "la",
+        "start": 0.88,
+        "end": 0.96
+      },
+      {
+        "text": "función",
+        "start": 1.04,
+        "end": 1.36
+      },
+      {
+        "text": "objetivo.",
+        "start": 1.44,
+        "end": 2.08
+      },
+      {
+        "text": "Llamamos",
+        "start": 2.56,
+        "end": 3.04
+      },
+      {
+        "text": "C",
+        "start": 3.2,
+        "end": 3.36
+      },
+      {
+        "text": "sub",
+        "start": 3.44,
+        "end": 3.6
+      },
+      {
+        "text": "i",
+        "start": 3.68,
+        "end": 3.84
+      },
+      {
+        "text": "al",
+        "start": 4.08,
+        "end": 4.16
+      },
+      {
+        "text": "conjunto",
+        "start": 4.24,
+        "end": 4.64
+      },
+      {
+        "text": "de",
+        "start": 4.72,
+        "end": 4.8
+      },
+      {
+        "text": "ciudades",
+        "start": 4.88,
+        "end": 5.36
+      },
+      {
+        "text": "cuyo",
+        "start": 5.44,
+        "end": 5.68
+      },
+      {
+        "text": "aeropuerto",
+        "start": 5.707,
+        "end": 6.24
+      },
+      {
+        "text": "más",
+        "start": 6.32,
+        "end": 6.48
+      },
+      {
+        "text": "cercano",
+        "start": 6.56,
+        "end": 7.04
+      },
+      {
+        "text": "es",
+        "start": 7.2,
+        "end": 7.36
+      },
+      {
+        "text": "el",
+        "start": 7.44,
+        "end": 7.52
+      },
+      {
+        "text": "i.",
+        "start": 7.6,
+        "end": 7.84
+      },
+      {
+        "text": "Entonces,",
+        "start": 8.32,
+        "end": 9.28
+      },
+      {
+        "text": "f",
+        "start": 9.36,
+        "end": 9.52
+      },
+      {
+        "text": "de",
+        "start": 9.6,
+        "end": 9.76
+      },
+      {
+        "text": "equis",
+        "start": 9.84,
+        "end": 10.08
+      },
+      {
+        "text": "suma,",
+        "start": 10.24,
+        "end": 10.48
+      },
+      {
+        "text": "para",
+        "start": 10.72,
+        "end": 10.88
+      },
+      {
+        "text": "cada",
+        "start": 11.04,
+        "end": 11.2
+      },
+      {
+        "text": "aeropuerto,",
+        "start": 11.24,
+        "end": 12.24
+      },
+      {
+        "text": "las",
+        "start": 12.32,
+        "end": 12.4
+      },
+      {
+        "text": "distancias",
+        "start": 12.48,
+        "end": 12.96
+      },
+      {
+        "text": "al",
+        "start": 13.04,
+        "end": 13.12
+      },
+      {
+        "text": "cuadrado",
+        "start": 13.16,
+        "end": 13.6
+      },
+      {
+        "text": "a",
+        "start": 13.76,
+        "end": 13.84
+      },
+      {
+        "text": "cada",
+        "start": 13.92,
+        "end": 14.16
+      },
+      {
+        "text": "una",
+        "start": 14.24,
+        "end": 14.4
+      },
+      {
+        "text": "de",
+        "start": 14.48,
+        "end": 14.56
+      },
+      {
+        "text": "sus",
+        "start": 14.64,
+        "end": 14.72
+      },
+      {
+        "text": "ciudades.",
+        "start": 14.76,
+        "end": 15.36
+      },
+      {
+        "text": "Es",
+        "start": 15.84,
+        "end": 15.92
+      },
+      {
+        "text": "la",
+        "start": 16,
+        "end": 16.04
+      },
+      {
+        "text": "ecuación",
+        "start": 16.08,
+        "end": 16.56
+      },
+      {
+        "text": "cuatro",
+        "start": 16.72,
+        "end": 16.96
+      },
+      {
+        "text": "punto",
+        "start": 17.12,
+        "end": 17.44
+      },
+      {
+        "text": "uno.",
+        "start": 17.52,
+        "end": 18.24
+      },
+      {
+        "text": "Ojo",
+        "start": 18.28,
+        "end": 18.48
+      },
+      {
+        "text": "con",
+        "start": 18.56,
+        "end": 18.64
+      },
+      {
+        "text": "un",
+        "start": 18.72,
+        "end": 18.76
+      },
+      {
+        "text": "detalle:",
+        "start": 18.8,
+        "end": 19.76
+      },
+      {
+        "text": "esta",
+        "start": 19.88,
+        "end": 20
+      },
+      {
+        "text": "fórmula",
+        "start": 20.16,
+        "end": 20.56
+      },
+      {
+        "text": "vale",
+        "start": 20.72,
+        "end": 20.96
+      },
+      {
+        "text": "en",
+        "start": 21,
+        "end": 21.04
+      },
+      {
+        "text": "el",
+        "start": 21.12,
+        "end": 21.2
+      },
+      {
+        "text": "estado",
+        "start": 21.36,
+        "end": 21.52
+      },
+      {
+        "text": "actual",
+        "start": 21.6,
+        "end": 22
+      },
+      {
+        "text": "y",
+        "start": 22.16,
+        "end": 22.2
+      },
+      {
+        "text": "en",
+        "start": 22.24,
+        "end": 22.32
+      },
+      {
+        "text": "su",
+        "start": 22.36,
+        "end": 22.4
+      },
+      {
+        "text": "vecindario",
+        "start": 22.48,
+        "end": 22.96
+      },
+      {
+        "text": "cercano.",
+        "start": 23.04,
+        "end": 23.84
+      },
+      {
+        "text": "Pero",
+        "start": 24.08,
+        "end": 24.24
+      },
+      {
+        "text": "si",
+        "start": 24.28,
+        "end": 24.32
+      },
+      {
+        "text": "movemos",
+        "start": 24.4,
+        "end": 24.8
+      },
+      {
+        "text": "mucho",
+        "start": 24.96,
+        "end": 25.2
+      },
+      {
+        "text": "un",
+        "start": 25.28,
+        "end": 25.36
+      },
+      {
+        "text": "aeropuerto,",
+        "start": 25.4,
+        "end": 26.4
+      },
+      {
+        "text": "algunas",
+        "start": 26.48,
+        "end": 26.8
+      },
+      {
+        "text": "ciudades",
+        "start": 26.88,
+        "end": 27.36
+      },
+      {
+        "text": "pasan",
+        "start": 27.44,
+        "end": 27.68
+      },
+      {
+        "text": "a",
+        "start": 27.76,
+        "end": 27.8
+      },
+      {
+        "text": "tener",
+        "start": 27.84,
+        "end": 28.16
+      },
+      {
+        "text": "otro",
+        "start": 28.24,
+        "end": 28.48
+      },
+      {
+        "text": "aeropuerto",
+        "start": 28.52,
+        "end": 29.04
+      },
+      {
+        "text": "más",
+        "start": 29.12,
+        "end": 29.28
+      },
+      {
+        "text": "cercano,",
+        "start": 29.36,
+        "end": 30.24
+      },
+      {
+        "text": "y",
+        "start": 30.28,
+        "end": 30.32
+      },
+      {
+        "text": "hay",
+        "start": 30.4,
+        "end": 30.48
+      },
+      {
+        "text": "que",
+        "start": 30.56,
+        "end": 30.64
+      },
+      {
+        "text": "recalcular",
+        "start": 30.72,
+        "end": 31.28
+      },
+      {
+        "text": "los",
+        "start": 31.36,
+        "end": 31.44
+      },
+      {
+        "text": "conjuntos",
+        "start": 31.52,
+        "end": 32
+      },
+      {
+        "text": "C.",
+        "start": 32.08,
+        "end": 32.32
+      },
+      {
+        "text": "La",
+        "start": 32.8,
+        "end": 32.88
+      },
+      {
+        "text": "fórmula",
+        "start": 32.96,
+        "end": 33.36
+      },
+      {
+        "text": "es",
+        "start": 33.44,
+        "end": 33.52
+      },
+      {
+        "text": "correcta",
+        "start": 33.6,
+        "end": 34
+      },
+      {
+        "text": "localmente,",
+        "start": 34.2,
+        "end": 35.04
+      },
+      {
+        "text": "pero",
+        "start": 35.12,
+        "end": 35.28
+      },
+      {
+        "text": "no",
+        "start": 35.36,
+        "end": 35.44
+      },
+      {
+        "text": "globalmente.",
+        "start": 35.52,
+        "end": 36.32
+      }
+    ]
+  },
+  "discretizar": {
+    "file": "voiceover/discretizar.mp3",
+    "duration": 48.74,
+    "cues": {
+      "grilla": 2.72,
+      "doce": 9.2,
+      "azar": 23.36,
+      "empirico": 30.64,
+      "achicar": 41.92
+    },
+    "words": [
+      {
+        "text": "Primera",
+        "start": 0.24,
+        "end": 0.56
+      },
+      {
+        "text": "idea:",
+        "start": 0.64,
+        "end": 1.36
+      },
+      {
+        "text": "discretizar.",
+        "start": 1.48,
+        "end": 2.48
+      },
+      {
+        "text": "En",
+        "start": 2.72,
+        "end": 2.8
+      },
+      {
+        "text": "vez",
+        "start": 2.88,
+        "end": 3.04
+      },
+      {
+        "text": "de",
+        "start": 3.08,
+        "end": 3.12
+      },
+      {
+        "text": "permitir",
+        "start": 3.2,
+        "end": 3.6
+      },
+      {
+        "text": "cualquier",
+        "start": 3.68,
+        "end": 4.08
+      },
+      {
+        "text": "punto,",
+        "start": 4.16,
+        "end": 4.88
+      },
+      {
+        "text": "limitamos",
+        "start": 4.96,
+        "end": 5.52
+      },
+      {
+        "text": "los",
+        "start": 5.6,
+        "end": 5.68
+      },
+      {
+        "text": "aeropuertos",
+        "start": 5.72,
+        "end": 6.4
+      },
+      {
+        "text": "a",
+        "start": 6.48,
+        "end": 6.56
+      },
+      {
+        "text": "una",
+        "start": 6.64,
+        "end": 6.72
+      },
+      {
+        "text": "cuadrícula",
+        "start": 6.8,
+        "end": 7.36
+      },
+      {
+        "text": "con",
+        "start": 7.44,
+        "end": 7.52
+      },
+      {
+        "text": "espaciado",
+        "start": 7.6,
+        "end": 8.16
+      },
+      {
+        "text": "delta.",
+        "start": 8.24,
+        "end": 8.92
+      },
+      {
+        "text": "Así,",
+        "start": 9.2,
+        "end": 9.92
+      },
+      {
+        "text": "cada",
+        "start": 10,
+        "end": 10.16
+      },
+      {
+        "text": "estado",
+        "start": 10.24,
+        "end": 10.64
+      },
+      {
+        "text": "tiene",
+        "start": 10.72,
+        "end": 10.88
+      },
+      {
+        "text": "solo",
+        "start": 11.04,
+        "end": 11.28
+      },
+      {
+        "text": "doce",
+        "start": 11.36,
+        "end": 11.6
+      },
+      {
+        "text": "sucesores:",
+        "start": 11.68,
+        "end": 12.88
+      },
+      {
+        "text": "elegimos",
+        "start": 12.92,
+        "end": 13.52
+      },
+      {
+        "text": "una",
+        "start": 13.6,
+        "end": 13.76
+      },
+      {
+        "text": "de",
+        "start": 13.84,
+        "end": 13.88
+      },
+      {
+        "text": "las",
+        "start": 13.92,
+        "end": 14
+      },
+      {
+        "text": "seis",
+        "start": 14.08,
+        "end": 14.24
+      },
+      {
+        "text": "variables",
+        "start": 14.32,
+        "end": 14.96
+      },
+      {
+        "text": "y",
+        "start": 15.04,
+        "end": 15.08
+      },
+      {
+        "text": "le",
+        "start": 15.12,
+        "end": 15.2
+      },
+      {
+        "text": "sumamos",
+        "start": 15.28,
+        "end": 15.76
+      },
+      {
+        "text": "o",
+        "start": 15.84,
+        "end": 15.92
+      },
+      {
+        "text": "restamos",
+        "start": 16,
+        "end": 16.48
+      },
+      {
+        "text": "delta.",
+        "start": 16.68,
+        "end": 16.96
+      },
+      {
+        "text": "Seis",
+        "start": 17.52,
+        "end": 17.68
+      },
+      {
+        "text": "por",
+        "start": 17.76,
+        "end": 17.92
+      },
+      {
+        "text": "dos,",
+        "start": 18,
+        "end": 18.64
+      },
+      {
+        "text": "doce.",
+        "start": 18.72,
+        "end": 19.52
+      },
+      {
+        "text": "Y",
+        "start": 19.56,
+        "end": 19.6
+      },
+      {
+        "text": "ya",
+        "start": 19.68,
+        "end": 19.76
+      },
+      {
+        "text": "podemos",
+        "start": 19.84,
+        "end": 20.24
+      },
+      {
+        "text": "aplicar",
+        "start": 20.32,
+        "end": 20.64
+      },
+      {
+        "text": "cualquier",
+        "start": 20.8,
+        "end": 21.2
+      },
+      {
+        "text": "algoritmo",
+        "start": 21.28,
+        "end": 21.76
+      },
+      {
+        "text": "de",
+        "start": 21.84,
+        "end": 21.92
+      },
+      {
+        "text": "búsqueda",
+        "start": 22,
+        "end": 22.32
+      },
+      {
+        "text": "local.",
+        "start": 22.4,
+        "end": 23.08
+      },
+      {
+        "text": "Otra",
+        "start": 23.36,
+        "end": 23.52
+      },
+      {
+        "text": "opción:",
+        "start": 23.6,
+        "end": 24.08
+      },
+      {
+        "text": "muestrear",
+        "start": 24.48,
+        "end": 24.96
+      },
+      {
+        "text": "sucesores",
+        "start": 25.04,
+        "end": 25.6
+      },
+      {
+        "text": "al",
+        "start": 25.68,
+        "end": 25.76
+      },
+      {
+        "text": "azar,",
+        "start": 25.96,
+        "end": 26.56
+      },
+      {
+        "text": "moviéndonos",
+        "start": 26.64,
+        "end": 27.28
+      },
+      {
+        "text": "una",
+        "start": 27.36,
+        "end": 27.52
+      },
+      {
+        "text": "distancia",
+        "start": 27.6,
+        "end": 28.08
+      },
+      {
+        "text": "delta",
+        "start": 28.16,
+        "end": 28.48
+      },
+      {
+        "text": "en",
+        "start": 28.64,
+        "end": 28.8
+      },
+      {
+        "text": "una",
+        "start": 28.88,
+        "end": 28.96
+      },
+      {
+        "text": "dirección",
+        "start": 29.04,
+        "end": 29.44
+      },
+      {
+        "text": "aleatoria.",
+        "start": 29.52,
+        "end": 30.16
+      },
+      {
+        "text": "Los",
+        "start": 30.64,
+        "end": 30.8
+      },
+      {
+        "text": "métodos",
+        "start": 30.88,
+        "end": 31.28
+      },
+      {
+        "text": "que",
+        "start": 31.32,
+        "end": 31.36
+      },
+      {
+        "text": "miden",
+        "start": 31.44,
+        "end": 31.68
+      },
+      {
+        "text": "el",
+        "start": 31.76,
+        "end": 31.84
+      },
+      {
+        "text": "progreso",
+        "start": 31.92,
+        "end": 32.32
+      },
+      {
+        "text": "comparando",
+        "start": 32.4,
+        "end": 32.96
+      },
+      {
+        "text": "f",
+        "start": 33.2,
+        "end": 33.44
+      },
+      {
+        "text": "entre",
+        "start": 33.52,
+        "end": 33.76
+      },
+      {
+        "text": "dos",
+        "start": 33.84,
+        "end": 34
+      },
+      {
+        "text": "puntos",
+        "start": 34.08,
+        "end": 34.4
+      },
+      {
+        "text": "cercanos",
+        "start": 34.44,
+        "end": 35.04
+      },
+      {
+        "text": "se",
+        "start": 35.28,
+        "end": 35.36
+      },
+      {
+        "text": "llaman",
+        "start": 35.44,
+        "end": 35.76
+      },
+      {
+        "text": "de",
+        "start": 35.92,
+        "end": 36
+      },
+      {
+        "text": "gradiente",
+        "start": 36.08,
+        "end": 36.56
+      },
+      {
+        "text": "empírico:",
+        "start": 36.68,
+        "end": 37.68
+      },
+      {
+        "text": "es",
+        "start": 37.76,
+        "end": 37.84
+      },
+      {
+        "text": "el",
+        "start": 37.88,
+        "end": 37.92
+      },
+      {
+        "text": "ascenso",
+        "start": 38,
+        "end": 38.4
+      },
+      {
+        "text": "de",
+        "start": 38.48,
+        "end": 38.52
+      },
+      {
+        "text": "colina",
+        "start": 38.56,
+        "end": 38.96
+      },
+      {
+        "text": "más",
+        "start": 39.12,
+        "end": 39.28
+      },
+      {
+        "text": "empinada,",
+        "start": 39.36,
+        "end": 40.08
+      },
+      {
+        "text": "en",
+        "start": 40.16,
+        "end": 40.24
+      },
+      {
+        "text": "el",
+        "start": 40.28,
+        "end": 40.32
+      },
+      {
+        "text": "espacio",
+        "start": 40.4,
+        "end": 40.8
+      },
+      {
+        "text": "discretizado.",
+        "start": 40.88,
+        "end": 41.84
+      },
+      {
+        "text": "Achicar",
+        "start": 41.92,
+        "end": 42.32
+      },
+      {
+        "text": "delta",
+        "start": 42.4,
+        "end": 42.72
+      },
+      {
+        "text": "con",
+        "start": 42.8,
+        "end": 42.88
+      },
+      {
+        "text": "el",
+        "start": 42.92,
+        "end": 42.96
+      },
+      {
+        "text": "tiempo",
+        "start": 43.04,
+        "end": 43.52
+      },
+      {
+        "text": "da",
+        "start": 43.6,
+        "end": 43.76
+      },
+      {
+        "text": "soluciones",
+        "start": 43.84,
+        "end": 44.4
+      },
+      {
+        "text": "más",
+        "start": 44.48,
+        "end": 44.64
+      },
+      {
+        "text": "precisas,",
+        "start": 44.72,
+        "end": 45.68
+      },
+      {
+        "text": "pero",
+        "start": 45.76,
+        "end": 45.92
+      },
+      {
+        "text": "no",
+        "start": 46.08,
+        "end": 46.16
+      },
+      {
+        "text": "garantiza",
+        "start": 46.24,
+        "end": 46.8
+      },
+      {
+        "text": "llegar",
+        "start": 46.84,
+        "end": 47.12
+      },
+      {
+        "text": "al",
+        "start": 47.2,
+        "end": 47.28
+      },
+      {
+        "text": "óptimo",
+        "start": 47.333,
+        "end": 47.6
+      },
+      {
+        "text": "global.",
+        "start": 47.68,
+        "end": 48.52
+      }
+    ]
+  },
+  "gradiente": {
+    "file": "voiceover/gradiente.mp3",
+    "duration": 57.18,
+    "cues": {
+      "gradiente": 6.94,
+      "flechas": 18.3,
+      "componentes": 27.02,
+      "cero": 34.06,
+      "tres": 45.26,
+      "eq42": 54.7
+    },
+    "words": [
+      {
+        "text": "Segunda",
+        "start": 0.22,
+        "end": 0.62
+      },
+      {
+        "text": "idea:",
+        "start": 0.7,
+        "end": 1.3
+      },
+      {
+        "text": "si",
+        "start": 1.58,
+        "end": 1.66
+      },
+      {
+        "text": "tenemos",
+        "start": 1.74,
+        "end": 2.14
+      },
+      {
+        "text": "la",
+        "start": 2.18,
+        "end": 2.22
+      },
+      {
+        "text": "fórmula",
+        "start": 2.38,
+        "end": 2.7
+      },
+      {
+        "text": "de",
+        "start": 2.78,
+        "end": 2.86
+      },
+      {
+        "text": "f,",
+        "start": 2.94,
+        "end": 3.58
+      },
+      {
+        "text": "podemos",
+        "start": 3.66,
+        "end": 3.98
+      },
+      {
+        "text": "usar",
+        "start": 4.06,
+        "end": 4.22
+      },
+      {
+        "text": "cálculo",
+        "start": 4.38,
+        "end": 4.94
+      },
+      {
+        "text": "en",
+        "start": 5.02,
+        "end": 5.18
+      },
+      {
+        "text": "vez",
+        "start": 5.26,
+        "end": 5.34
+      },
+      {
+        "text": "de",
+        "start": 5.38,
+        "end": 5.42
+      },
+      {
+        "text": "probar",
+        "start": 5.5,
+        "end": 5.74
+      },
+      {
+        "text": "puntos.",
+        "start": 5.82,
+        "end": 6.86
+      },
+      {
+        "text": "La",
+        "start": 6.94,
+        "end": 6.98
+      },
+      {
+        "text": "herramienta",
+        "start": 7.02,
+        "end": 7.5
+      },
+      {
+        "text": "clave",
+        "start": 7.58,
+        "end": 7.98
+      },
+      {
+        "text": "es",
+        "start": 8.06,
+        "end": 8.14
+      },
+      {
+        "text": "el",
+        "start": 8.18,
+        "end": 8.22
+      },
+      {
+        "text": "gradiente,",
+        "start": 8.3,
+        "end": 9.18
+      },
+      {
+        "text": "nabla",
+        "start": 9.34,
+        "end": 9.66
+      },
+      {
+        "text": "f:",
+        "start": 9.82,
+        "end": 10.7
+      },
+      {
+        "text": "un",
+        "start": 10.78,
+        "end": 10.86
+      },
+      {
+        "text": "vector",
+        "start": 11.06,
+        "end": 11.26
+      },
+      {
+        "text": "que",
+        "start": 11.34,
+        "end": 11.42
+      },
+      {
+        "text": "apunta",
+        "start": 11.5,
+        "end": 11.9
+      },
+      {
+        "text": "hacia",
+        "start": 11.98,
+        "end": 12.22
+      },
+      {
+        "text": "donde",
+        "start": 12.3,
+        "end": 12.46
+      },
+      {
+        "text": "la",
+        "start": 12.5,
+        "end": 12.54
+      },
+      {
+        "text": "función",
+        "start": 12.62,
+        "end": 13.02
+      },
+      {
+        "text": "sube",
+        "start": 13.18,
+        "end": 13.5
+      },
+      {
+        "text": "más",
+        "start": 13.58,
+        "end": 13.82
+      },
+      {
+        "text": "rápido,",
+        "start": 13.86,
+        "end": 14.62
+      },
+      {
+        "text": "y",
+        "start": 14.7,
+        "end": 14.78
+      },
+      {
+        "text": "cuyo",
+        "start": 14.86,
+        "end": 15.02
+      },
+      {
+        "text": "largo",
+        "start": 15.1,
+        "end": 15.42
+      },
+      {
+        "text": "dice",
+        "start": 15.58,
+        "end": 15.9
+      },
+      {
+        "text": "qué",
+        "start": 16.06,
+        "end": 16.22
+      },
+      {
+        "text": "tan",
+        "start": 16.3,
+        "end": 16.38
+      },
+      {
+        "text": "empinada",
+        "start": 16.46,
+        "end": 16.86
+      },
+      {
+        "text": "es",
+        "start": 16.94,
+        "end": 17.02
+      },
+      {
+        "text": "la",
+        "start": 17.06,
+        "end": 17.1
+      },
+      {
+        "text": "subida.",
+        "start": 17.18,
+        "end": 18.22
+      },
+      {
+        "text": "Imaginá",
+        "start": 18.3,
+        "end": 18.7
+      },
+      {
+        "text": "una",
+        "start": 18.78,
+        "end": 18.94
+      },
+      {
+        "text": "montaña",
+        "start": 19.06,
+        "end": 19.42
+      },
+      {
+        "text": "con",
+        "start": 19.5,
+        "end": 19.58
+      },
+      {
+        "text": "niebla:",
+        "start": 19.66,
+        "end": 20.46
+      },
+      {
+        "text": "el",
+        "start": 20.54,
+        "end": 20.62
+      },
+      {
+        "text": "gradiente",
+        "start": 20.74,
+        "end": 21.34
+      },
+      {
+        "text": "es",
+        "start": 21.42,
+        "end": 21.5
+      },
+      {
+        "text": "la",
+        "start": 21.58,
+        "end": 21.66
+      },
+      {
+        "text": "flecha",
+        "start": 21.74,
+        "end": 22.06
+      },
+      {
+        "text": "que,",
+        "start": 22.18,
+        "end": 22.54
+      },
+      {
+        "text": "desde",
+        "start": 22.62,
+        "end": 22.78
+      },
+      {
+        "text": "donde",
+        "start": 22.86,
+        "end": 23.02
+      },
+      {
+        "text": "estás",
+        "start": 23.1,
+        "end": 23.34
+      },
+      {
+        "text": "parado,",
+        "start": 23.42,
+        "end": 24.06
+      },
+      {
+        "text": "apunta",
+        "start": 24.14,
+        "end": 24.54
+      },
+      {
+        "text": "a",
+        "start": 24.58,
+        "end": 24.62
+      },
+      {
+        "text": "la",
+        "start": 24.7,
+        "end": 24.74
+      },
+      {
+        "text": "subida",
+        "start": 24.78,
+        "end": 25.26
+      },
+      {
+        "text": "más",
+        "start": 25.34,
+        "end": 25.5
+      },
+      {
+        "text": "fuerte.",
+        "start": 25.58,
+        "end": 26.5
+      },
+      {
+        "text": "En",
+        "start": 27.02,
+        "end": 27.1
+      },
+      {
+        "text": "nuestro",
+        "start": 27.14,
+        "end": 27.42
+      },
+      {
+        "text": "problema",
+        "start": 27.5,
+        "end": 28.06
+      },
+      {
+        "text": "tiene",
+        "start": 28.1,
+        "end": 28.38
+      },
+      {
+        "text": "seis",
+        "start": 28.46,
+        "end": 28.62
+      },
+      {
+        "text": "componentes:",
+        "start": 28.7,
+        "end": 29.98
+      },
+      {
+        "text": "la",
+        "start": 30.02,
+        "end": 30.06
+      },
+      {
+        "text": "derivada",
+        "start": 30.14,
+        "end": 30.54
+      },
+      {
+        "text": "parcial",
+        "start": 30.62,
+        "end": 31.02
+      },
+      {
+        "text": "de",
+        "start": 31.06,
+        "end": 31.1
+      },
+      {
+        "text": "f",
+        "start": 31.26,
+        "end": 31.473
+      },
+      {
+        "text": "respecto",
+        "start": 31.74,
+        "end": 32.22
+      },
+      {
+        "text": "de",
+        "start": 32.3,
+        "end": 32.46
+      },
+      {
+        "text": "cada",
+        "start": 32.54,
+        "end": 32.7
+      },
+      {
+        "text": "coordenada.",
+        "start": 32.78,
+        "end": 33.74
+      },
+      {
+        "text": "A",
+        "start": 34.06,
+        "end": 34.14
+      },
+      {
+        "text": "veces",
+        "start": 34.22,
+        "end": 34.54
+      },
+      {
+        "text": "se",
+        "start": 34.7,
+        "end": 34.86
+      },
+      {
+        "text": "puede",
+        "start": 34.94,
+        "end": 35.1
+      },
+      {
+        "text": "resolver",
+        "start": 35.34,
+        "end": 35.58
+      },
+      {
+        "text": "nabla",
+        "start": 35.82,
+        "end": 36.14
+      },
+      {
+        "text": "f",
+        "start": 36.3,
+        "end": 36.54
+      },
+      {
+        "text": "igual",
+        "start": 36.62,
+        "end": 36.86
+      },
+      {
+        "text": "a",
+        "start": 36.94,
+        "end": 37.02
+      },
+      {
+        "text": "cero",
+        "start": 37.1,
+        "end": 37.34
+      },
+      {
+        "text": "directamente.",
+        "start": 37.42,
+        "end": 38.3
+      },
+      {
+        "text": "Con",
+        "start": 39.26,
+        "end": 39.42
+      },
+      {
+        "text": "un",
+        "start": 39.46,
+        "end": 39.5
+      },
+      {
+        "text": "solo",
+        "start": 39.66,
+        "end": 39.82
+      },
+      {
+        "text": "aeropuerto,",
+        "start": 39.86,
+        "end": 40.78
+      },
+      {
+        "text": "la",
+        "start": 40.86,
+        "end": 40.9
+      },
+      {
+        "text": "solución",
+        "start": 40.94,
+        "end": 41.5
+      },
+      {
+        "text": "es",
+        "start": 41.58,
+        "end": 41.66
+      },
+      {
+        "text": "el",
+        "start": 41.74,
+        "end": 41.82
+      },
+      {
+        "text": "promedio",
+        "start": 41.94,
+        "end": 42.3
+      },
+      {
+        "text": "de",
+        "start": 42.34,
+        "end": 42.38
+      },
+      {
+        "text": "las",
+        "start": 42.46,
+        "end": 42.54
+      },
+      {
+        "text": "coordenadas",
+        "start": 42.62,
+        "end": 43.26
+      },
+      {
+        "text": "de",
+        "start": 43.34,
+        "end": 43.42
+      },
+      {
+        "text": "todas",
+        "start": 43.66,
+        "end": 43.9
+      },
+      {
+        "text": "las",
+        "start": 43.98,
+        "end": 44.06
+      },
+      {
+        "text": "ciudades.",
+        "start": 44.14,
+        "end": 44.78
+      },
+      {
+        "text": "Pero",
+        "start": 45.26,
+        "end": 45.42
+      },
+      {
+        "text": "con",
+        "start": 45.5,
+        "end": 45.58
+      },
+      {
+        "text": "tres",
+        "start": 45.66,
+        "end": 46.06
+      },
+      {
+        "text": "no",
+        "start": 46.3,
+        "end": 46.38
+      },
+      {
+        "text": "hay",
+        "start": 46.46,
+        "end": 46.54
+      },
+      {
+        "text": "fórmula",
+        "start": 46.7,
+        "end": 47.02
+      },
+      {
+        "text": "cerrada,",
+        "start": 47.1,
+        "end": 47.9
+      },
+      {
+        "text": "porque",
+        "start": 47.98,
+        "end": 48.14
+      },
+      {
+        "text": "los",
+        "start": 48.22,
+        "end": 48.3
+      },
+      {
+        "text": "conjuntos",
+        "start": 48.38,
+        "end": 48.86
+      },
+      {
+        "text": "C",
+        "start": 48.94,
+        "end": 49.26
+      },
+      {
+        "text": "dependen",
+        "start": 49.34,
+        "end": 49.82
+      },
+      {
+        "text": "del",
+        "start": 49.9,
+        "end": 49.98
+      },
+      {
+        "text": "estado.",
+        "start": 50.06,
+        "end": 50.54
+      },
+      {
+        "text": "Lo",
+        "start": 51.18,
+        "end": 51.26
+      },
+      {
+        "text": "que",
+        "start": 51.34,
+        "end": 51.42
+      },
+      {
+        "text": "sí",
+        "start": 51.5,
+        "end": 51.62
+      },
+      {
+        "text": "podemos",
+        "start": 51.66,
+        "end": 52.22
+      },
+      {
+        "text": "es",
+        "start": 52.3,
+        "end": 52.46
+      },
+      {
+        "text": "calcular",
+        "start": 52.54,
+        "end": 52.94
+      },
+      {
+        "text": "el",
+        "start": 52.98,
+        "end": 53.02
+      },
+      {
+        "text": "gradiente",
+        "start": 53.1,
+        "end": 53.58
+      },
+      {
+        "text": "localmente,",
+        "start": 53.78,
+        "end": 54.62
+      },
+      {
+        "text": "como",
+        "start": 54.7,
+        "end": 54.86
+      },
+      {
+        "text": "en",
+        "start": 54.9,
+        "end": 54.94
+      },
+      {
+        "text": "la",
+        "start": 54.98,
+        "end": 55.02
+      },
+      {
+        "text": "ecuación",
+        "start": 55.1,
+        "end": 55.5
+      },
+      {
+        "text": "cuatro",
+        "start": 55.66,
+        "end": 55.9
+      },
+      {
+        "text": "punto",
+        "start": 56.06,
+        "end": 56.22
+      },
+      {
+        "text": "dos.",
+        "start": 56.38,
+        "end": 56.7
+      }
+    ]
+  },
+  "paso": {
+    "file": "voiceover/paso.mp3",
+    "duration": 51.8,
+    "cues": {
+      "regla": 4.08,
+      "signo": 11.28,
+      "alfa": 20.56,
+      "chico": 25.24,
+      "grande": 28.76,
+      "lineal": 33.44,
+      "empeora": 43.52
+    },
+    "words": [
+      {
+        "text": "Con",
+        "start": 0.48,
+        "end": 0.56
+      },
+      {
+        "text": "el",
+        "start": 0.64,
+        "end": 0.68
+      },
+      {
+        "text": "gradiente,",
+        "start": 0.72,
+        "end": 1.52
+      },
+      {
+        "text": "la",
+        "start": 1.6,
+        "end": 1.68
+      },
+      {
+        "text": "regla",
+        "start": 1.76,
+        "end": 2
+      },
+      {
+        "text": "para",
+        "start": 2.08,
+        "end": 2.24
+      },
+      {
+        "text": "moverse",
+        "start": 2.28,
+        "end": 2.72
+      },
+      {
+        "text": "es",
+        "start": 2.8,
+        "end": 2.96
+      },
+      {
+        "text": "simple:",
+        "start": 3.04,
+        "end": 4
+      },
+      {
+        "text": "equis",
+        "start": 4.08,
+        "end": 4.48
+      },
+      {
+        "text": "pasa",
+        "start": 4.64,
+        "end": 4.88
+      },
+      {
+        "text": "a",
+        "start": 4.92,
+        "end": 4.96
+      },
+      {
+        "text": "ser",
+        "start": 5.04,
+        "end": 5.2
+      },
+      {
+        "text": "equis",
+        "start": 5.44,
+        "end": 5.76
+      },
+      {
+        "text": "más",
+        "start": 5.92,
+        "end": 6.08
+      },
+      {
+        "text": "alfa",
+        "start": 6.24,
+        "end": 6.56
+      },
+      {
+        "text": "por",
+        "start": 6.72,
+        "end": 6.8
+      },
+      {
+        "text": "nabla",
+        "start": 6.96,
+        "end": 7.2
+      },
+      {
+        "text": "f.",
+        "start": 7.36,
+        "end": 7.68
+      },
+      {
+        "text": "Un",
+        "start": 8.24,
+        "end": 8.32
+      },
+      {
+        "text": "pasito",
+        "start": 8.4,
+        "end": 8.8
+      },
+      {
+        "text": "en",
+        "start": 8.84,
+        "end": 8.88
+      },
+      {
+        "text": "la",
+        "start": 8.92,
+        "end": 8.96
+      },
+      {
+        "text": "dirección",
+        "start": 9.04,
+        "end": 9.52
+      },
+      {
+        "text": "que",
+        "start": 9.6,
+        "end": 9.68
+      },
+      {
+        "text": "más",
+        "start": 9.76,
+        "end": 10
+      },
+      {
+        "text": "sube.",
+        "start": 10.12,
+        "end": 10.84
+      },
+      {
+        "text": "El",
+        "start": 11.28,
+        "end": 11.44
+      },
+      {
+        "text": "libro",
+        "start": 11.52,
+        "end": 11.76
+      },
+      {
+        "text": "habla",
+        "start": 11.84,
+        "end": 12
+      },
+      {
+        "text": "de",
+        "start": 12.08,
+        "end": 12.12
+      },
+      {
+        "text": "maximizar;",
+        "start": 12.16,
+        "end": 13.36
+      },
+      {
+        "text": "en",
+        "start": 13.4,
+        "end": 13.44
+      },
+      {
+        "text": "los",
+        "start": 13.52,
+        "end": 13.6
+      },
+      {
+        "text": "aeropuertos",
+        "start": 13.68,
+        "end": 14.32
+      },
+      {
+        "text": "queremos",
+        "start": 14.4,
+        "end": 14.8
+      },
+      {
+        "text": "minimizar,",
+        "start": 14.88,
+        "end": 15.84
+      },
+      {
+        "text": "así",
+        "start": 15.92,
+        "end": 16.08
+      },
+      {
+        "text": "que",
+        "start": 16.16,
+        "end": 16.24
+      },
+      {
+        "text": "restamos",
+        "start": 16.4,
+        "end": 16.88
+      },
+      {
+        "text": "y",
+        "start": 16.96,
+        "end": 17.04
+      },
+      {
+        "text": "bajamos:",
+        "start": 17.08,
+        "end": 18.08
+      },
+      {
+        "text": "descenso",
+        "start": 18.24,
+        "end": 18.64
+      },
+      {
+        "text": "por",
+        "start": 18.72,
+        "end": 18.8
+      },
+      {
+        "text": "gradiente.",
+        "start": 18.88,
+        "end": 19.52
+      },
+      {
+        "text": "Alfa",
+        "start": 20.56,
+        "end": 20.96
+      },
+      {
+        "text": "se",
+        "start": 21.04,
+        "end": 21.12
+      },
+      {
+        "text": "llama",
+        "start": 21.2,
+        "end": 21.44
+      },
+      {
+        "text": "tamaño",
+        "start": 21.52,
+        "end": 21.92
+      },
+      {
+        "text": "de",
+        "start": 22,
+        "end": 22.08
+      },
+      {
+        "text": "paso,",
+        "start": 22.12,
+        "end": 22.8
+      },
+      {
+        "text": "y",
+        "start": 22.88,
+        "end": 22.92
+      },
+      {
+        "text": "elegirlo",
+        "start": 22.96,
+        "end": 23.44
+      },
+      {
+        "text": "bien",
+        "start": 23.48,
+        "end": 23.76
+      },
+      {
+        "text": "es",
+        "start": 23.84,
+        "end": 24
+      },
+      {
+        "text": "el",
+        "start": 24.04,
+        "end": 24.08
+      },
+      {
+        "text": "problema.",
+        "start": 24.16,
+        "end": 25.2
+      },
+      {
+        "text": "Si",
+        "start": 25.24,
+        "end": 25.28
+      },
+      {
+        "text": "es",
+        "start": 25.36,
+        "end": 25.44
+      },
+      {
+        "text": "muy",
+        "start": 25.52,
+        "end": 25.68
+      },
+      {
+        "text": "chico,",
+        "start": 25.72,
+        "end": 26.24
+      },
+      {
+        "text": "necesitamos",
+        "start": 26.28,
+        "end": 26.96
+      },
+      {
+        "text": "muchísimos",
+        "start": 27.04,
+        "end": 27.68
+      },
+      {
+        "text": "pasos.",
+        "start": 27.76,
+        "end": 28.72
+      },
+      {
+        "text": "Si",
+        "start": 28.76,
+        "end": 28.8
+      },
+      {
+        "text": "es",
+        "start": 28.88,
+        "end": 28.96
+      },
+      {
+        "text": "muy",
+        "start": 29.04,
+        "end": 29.12
+      },
+      {
+        "text": "grande,",
+        "start": 29.2,
+        "end": 29.84
+      },
+      {
+        "text": "nos",
+        "start": 29.96,
+        "end": 30.08
+      },
+      {
+        "text": "pasamos",
+        "start": 30.16,
+        "end": 30.48
+      },
+      {
+        "text": "del",
+        "start": 30.56,
+        "end": 30.64
+      },
+      {
+        "text": "máximo",
+        "start": 30.72,
+        "end": 31.2
+      },
+      {
+        "text": "y",
+        "start": 31.28,
+        "end": 31.36
+      },
+      {
+        "text": "quedamos",
+        "start": 31.44,
+        "end": 31.84
+      },
+      {
+        "text": "rebotando.",
+        "start": 31.92,
+        "end": 33.36
+      },
+      {
+        "text": "La",
+        "start": 33.44,
+        "end": 33.52
+      },
+      {
+        "text": "búsqueda",
+        "start": 33.6,
+        "end": 33.92
+      },
+      {
+        "text": "lineal,",
+        "start": 34,
+        "end": 34.72
+      },
+      {
+        "text": "que",
+        "start": 34.76,
+        "end": 34.8
+      },
+      {
+        "text": "el",
+        "start": 34.84,
+        "end": 34.88
+      },
+      {
+        "text": "libro",
+        "start": 35,
+        "end": 35.2
+      },
+      {
+        "text": "traduce",
+        "start": 35.32,
+        "end": 35.68
+      },
+      {
+        "text": "como",
+        "start": 35.76,
+        "end": 35.92
+      },
+      {
+        "text": "búsqueda",
+        "start": 36,
+        "end": 36.4
+      },
+      {
+        "text": "online,",
+        "start": 36.64,
+        "end": 37.2
+      },
+      {
+        "text": "ataca",
+        "start": 37.36,
+        "end": 37.68
+      },
+      {
+        "text": "este",
+        "start": 37.8,
+        "end": 37.92
+      },
+      {
+        "text": "dilema:",
+        "start": 37.96,
+        "end": 39.12
+      },
+      {
+        "text": "sigue",
+        "start": 39.2,
+        "end": 39.36
+      },
+      {
+        "text": "la",
+        "start": 39.44,
+        "end": 39.52
+      },
+      {
+        "text": "dirección",
+        "start": 39.6,
+        "end": 40
+      },
+      {
+        "text": "del",
+        "start": 40.04,
+        "end": 40.08
+      },
+      {
+        "text": "gradiente",
+        "start": 40.16,
+        "end": 40.72
+      },
+      {
+        "text": "duplicando",
+        "start": 40.88,
+        "end": 41.44
+      },
+      {
+        "text": "alfa",
+        "start": 41.52,
+        "end": 41.84
+      },
+      {
+        "text": "una",
+        "start": 42.08,
+        "end": 42.32
+      },
+      {
+        "text": "y",
+        "start": 42.48,
+        "end": 42.52
+      },
+      {
+        "text": "otra",
+        "start": 42.56,
+        "end": 42.8
+      },
+      {
+        "text": "vez,",
+        "start": 42.88,
+        "end": 43.44
+      },
+      {
+        "text": "hasta",
+        "start": 43.52,
+        "end": 43.76
+      },
+      {
+        "text": "que",
+        "start": 43.84,
+        "end": 43.92
+      },
+      {
+        "text": "f",
+        "start": 44,
+        "end": 44.32
+      },
+      {
+        "text": "empieza",
+        "start": 44.4,
+        "end": 44.88
+      },
+      {
+        "text": "a",
+        "start": 44.907,
+        "end": 44.933
+      },
+      {
+        "text": "empeorar.",
+        "start": 44.96,
+        "end": 45.52
+      },
+      {
+        "text": "Ese",
+        "start": 46.24,
+        "end": 46.48
+      },
+      {
+        "text": "punto",
+        "start": 46.56,
+        "end": 46.96
+      },
+      {
+        "text": "es",
+        "start": 47.04,
+        "end": 47.12
+      },
+      {
+        "text": "el",
+        "start": 47.2,
+        "end": 47.28
+      },
+      {
+        "text": "nuevo",
+        "start": 47.36,
+        "end": 47.6
+      },
+      {
+        "text": "estado",
+        "start": 47.76,
+        "end": 47.92
+      },
+      {
+        "text": "actual,",
+        "start": 48.16,
+        "end": 48.72
+      },
+      {
+        "text": "y",
+        "start": 48.8,
+        "end": 48.88
+      },
+      {
+        "text": "desde",
+        "start": 48.96,
+        "end": 49.12
+      },
+      {
+        "text": "ahí",
+        "start": 49.2,
+        "end": 49.36
+      },
+      {
+        "text": "se",
+        "start": 49.6,
+        "end": 49.68
+      },
+      {
+        "text": "elige",
+        "start": 49.88,
+        "end": 50.08
+      },
+      {
+        "text": "una",
+        "start": 50.2,
+        "end": 50.32
+      },
+      {
+        "text": "nueva",
+        "start": 50.4,
+        "end": 50.64
+      },
+      {
+        "text": "dirección.",
+        "start": 50.72,
+        "end": 51.36
+      }
+    ]
+  },
+  "demo": {
+    "file": "voiceover/demo.mp3",
+    "duration": 14.76,
+    "cues": {
+      "pasos": 2.2,
+      "baja": 9.56
+    },
+    "words": [
+      {
+        "text": "Así",
+        "start": 0.44,
+        "end": 0.68
+      },
+      {
+        "text": "se",
+        "start": 0.76,
+        "end": 0.84
+      },
+      {
+        "text": "ve",
+        "start": 0.92,
+        "end": 1
+      },
+      {
+        "text": "en",
+        "start": 1.04,
+        "end": 1.08
+      },
+      {
+        "text": "el",
+        "start": 1.16,
+        "end": 1.2
+      },
+      {
+        "text": "mapa.",
+        "start": 1.24,
+        "end": 1.64
+      },
+      {
+        "text": "En",
+        "start": 2.2,
+        "end": 2.36
+      },
+      {
+        "text": "cada",
+        "start": 2.44,
+        "end": 2.6
+      },
+      {
+        "text": "paso",
+        "start": 2.76,
+        "end": 3.08
+      },
+      {
+        "text": "calculamos",
+        "start": 3.16,
+        "end": 3.72
+      },
+      {
+        "text": "el",
+        "start": 3.8,
+        "end": 3.88
+      },
+      {
+        "text": "gradiente",
+        "start": 3.96,
+        "end": 4.36
+      },
+      {
+        "text": "de",
+        "start": 4.44,
+        "end": 4.52
+      },
+      {
+        "text": "cada",
+        "start": 4.68,
+        "end": 4.84
+      },
+      {
+        "text": "aeropuerto",
+        "start": 4.92,
+        "end": 5.4
+      },
+      {
+        "text": "con",
+        "start": 5.48,
+        "end": 5.56
+      },
+      {
+        "text": "sus",
+        "start": 5.64,
+        "end": 5.8
+      },
+      {
+        "text": "ciudades,",
+        "start": 5.84,
+        "end": 6.68
+      },
+      {
+        "text": "y",
+        "start": 6.76,
+        "end": 6.8
+      },
+      {
+        "text": "lo",
+        "start": 6.84,
+        "end": 6.92
+      },
+      {
+        "text": "movemos",
+        "start": 7,
+        "end": 7.4
+      },
+      {
+        "text": "un",
+        "start": 7.56,
+        "end": 7.64
+      },
+      {
+        "text": "poquito",
+        "start": 7.72,
+        "end": 8.12
+      },
+      {
+        "text": "cuesta",
+        "start": 8.2,
+        "end": 8.44
+      },
+      {
+        "text": "abajo.",
+        "start": 8.52,
+        "end": 9
+      },
+      {
+        "text": "La",
+        "start": 9.56,
+        "end": 9.64
+      },
+      {
+        "text": "función",
+        "start": 9.72,
+        "end": 10.04
+      },
+      {
+        "text": "objetivo",
+        "start": 10.2,
+        "end": 10.52
+      },
+      {
+        "text": "baja,",
+        "start": 10.68,
+        "end": 11.32
+      },
+      {
+        "text": "y",
+        "start": 11.36,
+        "end": 11.4
+      },
+      {
+        "text": "baja,",
+        "start": 11.48,
+        "end": 12.2
+      },
+      {
+        "text": "hasta",
+        "start": 12.24,
+        "end": 12.44
+      },
+      {
+        "text": "que",
+        "start": 12.52,
+        "end": 12.6
+      },
+      {
+        "text": "los",
+        "start": 12.68,
+        "end": 12.76
+      },
+      {
+        "text": "aeropuertos",
+        "start": 12.8,
+        "end": 13.32
+      },
+      {
+        "text": "se",
+        "start": 13.36,
+        "end": 13.4
+      },
+      {
+        "text": "acomodan.",
+        "start": 13.48,
+        "end": 14.52
+      }
+    ]
+  },
+  "newton": {
+    "file": "voiceover/newton.mp3",
+    "duration": 53.84,
+    "cues": {
+      "raices": 5.2,
+      "tangente": 11.72,
+      "formula": 19.32,
+      "converge": 24.48,
+      "conexion": 28.107,
+      "hessiana": 38.56,
+      "tazon": 46.08
+    },
+    "words": [
+      {
+        "text": "Para",
+        "start": 0.24,
+        "end": 0.4
+      },
+      {
+        "text": "muchos",
+        "start": 0.48,
+        "end": 0.8
+      },
+      {
+        "text": "problemas,",
+        "start": 0.88,
+        "end": 1.6
+      },
+      {
+        "text": "el",
+        "start": 1.64,
+        "end": 1.68
+      },
+      {
+        "text": "método",
+        "start": 1.76,
+        "end": 2.16
+      },
+      {
+        "text": "más",
+        "start": 2.24,
+        "end": 2.4
+      },
+      {
+        "text": "efectivo",
+        "start": 2.48,
+        "end": 3.12
+      },
+      {
+        "text": "es",
+        "start": 3.2,
+        "end": 3.28
+      },
+      {
+        "text": "el",
+        "start": 3.36,
+        "end": 3.44
+      },
+      {
+        "text": "de",
+        "start": 3.48,
+        "end": 3.52
+      },
+      {
+        "text": "Newton-Raphson.",
+        "start": 3.68,
+        "end": 5.12
+      },
+      {
+        "text": "Sirve",
+        "start": 5.2,
+        "end": 5.44
+      },
+      {
+        "text": "para",
+        "start": 5.52,
+        "end": 5.6
+      },
+      {
+        "text": "encontrar",
+        "start": 5.68,
+        "end": 6.08
+      },
+      {
+        "text": "raíces:",
+        "start": 6.16,
+        "end": 7.2
+      },
+      {
+        "text": "resolver",
+        "start": 7.44,
+        "end": 7.68
+      },
+      {
+        "text": "ecuaciones",
+        "start": 7.72,
+        "end": 8.32
+      },
+      {
+        "text": "de",
+        "start": 8.36,
+        "end": 8.4
+      },
+      {
+        "text": "la",
+        "start": 8.48,
+        "end": 8.56
+      },
+      {
+        "text": "forma",
+        "start": 8.72,
+        "end": 8.88
+      },
+      {
+        "text": "g",
+        "start": 9.2,
+        "end": 9.36
+      },
+      {
+        "text": "de",
+        "start": 9.44,
+        "end": 9.52
+      },
+      {
+        "text": "equis",
+        "start": 9.6,
+        "end": 9.92
+      },
+      {
+        "text": "igual",
+        "start": 10.08,
+        "end": 10.32
+      },
+      {
+        "text": "a",
+        "start": 10.4,
+        "end": 10.48
+      },
+      {
+        "text": "cero.",
+        "start": 10.587,
+        "end": 11.68
+      },
+      {
+        "text": "En",
+        "start": 11.72,
+        "end": 11.76
+      },
+      {
+        "text": "el",
+        "start": 11.84,
+        "end": 11.92
+      },
+      {
+        "text": "punto",
+        "start": 12,
+        "end": 12.16
+      },
+      {
+        "text": "actual",
+        "start": 12.24,
+        "end": 12.72
+      },
+      {
+        "text": "trazamos",
+        "start": 12.8,
+        "end": 13.28
+      },
+      {
+        "text": "la",
+        "start": 13.32,
+        "end": 13.36
+      },
+      {
+        "text": "recta",
+        "start": 13.44,
+        "end": 13.72
+      },
+      {
+        "text": "tangente,",
+        "start": 13.76,
+        "end": 14.72
+      },
+      {
+        "text": "y",
+        "start": 14.76,
+        "end": 14.8
+      },
+      {
+        "text": "vemos",
+        "start": 14.88,
+        "end": 15.28
+      },
+      {
+        "text": "dónde",
+        "start": 15.32,
+        "end": 15.6
+      },
+      {
+        "text": "corta",
+        "start": 15.68,
+        "end": 15.92
+      },
+      {
+        "text": "al",
+        "start": 16,
+        "end": 16.08
+      },
+      {
+        "text": "eje:",
+        "start": 16.16,
+        "end": 16.88
+      },
+      {
+        "text": "esa",
+        "start": 17.12,
+        "end": 17.36
+      },
+      {
+        "text": "es",
+        "start": 17.44,
+        "end": 17.52
+      },
+      {
+        "text": "la",
+        "start": 17.6,
+        "end": 17.68
+      },
+      {
+        "text": "nueva",
+        "start": 17.76,
+        "end": 18
+      },
+      {
+        "text": "estimación.",
+        "start": 18.08,
+        "end": 19.28
+      },
+      {
+        "text": "En",
+        "start": 19.32,
+        "end": 19.36
+      },
+      {
+        "text": "fórmula:",
+        "start": 19.52,
+        "end": 20.56
+      },
+      {
+        "text": "equis",
+        "start": 20.64,
+        "end": 20.96
+      },
+      {
+        "text": "menos",
+        "start": 21.04,
+        "end": 21.28
+      },
+      {
+        "text": "g",
+        "start": 21.44,
+        "end": 21.52
+      },
+      {
+        "text": "de",
+        "start": 21.6,
+        "end": 21.68
+      },
+      {
+        "text": "equis",
+        "start": 21.76,
+        "end": 22.08
+      },
+      {
+        "text": "sobre",
+        "start": 22.32,
+        "end": 22.56
+      },
+      {
+        "text": "g",
+        "start": 22.72,
+        "end": 22.88
+      },
+      {
+        "text": "prima",
+        "start": 22.96,
+        "end": 23.2
+      },
+      {
+        "text": "de",
+        "start": 23.28,
+        "end": 23.36
+      },
+      {
+        "text": "equis.",
+        "start": 23.44,
+        "end": 24.4
+      },
+      {
+        "text": "Repitiendo,",
+        "start": 24.48,
+        "end": 25.36
+      },
+      {
+        "text": "llega",
+        "start": 25.44,
+        "end": 25.68
+      },
+      {
+        "text": "a",
+        "start": 25.72,
+        "end": 25.76
+      },
+      {
+        "text": "la",
+        "start": 25.8,
+        "end": 25.84
+      },
+      {
+        "text": "raíz",
+        "start": 25.92,
+        "end": 26.24
+      },
+      {
+        "text": "muy",
+        "start": 26.48,
+        "end": 26.64
+      },
+      {
+        "text": "rápido.",
+        "start": 26.72,
+        "end": 28.08
+      },
+      {
+        "text": "¿Y",
+        "start": 28.107,
+        "end": 28.16
+      },
+      {
+        "text": "para",
+        "start": 28.24,
+        "end": 28.32
+      },
+      {
+        "text": "optimizar?",
+        "start": 28.4,
+        "end": 29.4
+      },
+      {
+        "text": "En",
+        "start": 29.76,
+        "end": 29.84
+      },
+      {
+        "text": "un",
+        "start": 29.92,
+        "end": 30
+      },
+      {
+        "text": "máximo",
+        "start": 30.08,
+        "end": 30.56
+      },
+      {
+        "text": "o",
+        "start": 30.72,
+        "end": 30.8
+      },
+      {
+        "text": "un",
+        "start": 30.84,
+        "end": 30.88
+      },
+      {
+        "text": "mínimo,",
+        "start": 30.96,
+        "end": 31.6
+      },
+      {
+        "text": "el",
+        "start": 31.64,
+        "end": 31.68
+      },
+      {
+        "text": "gradiente",
+        "start": 31.76,
+        "end": 32.24
+      },
+      {
+        "text": "vale",
+        "start": 32.4,
+        "end": 32.56
+      },
+      {
+        "text": "cero.",
+        "start": 32.64,
+        "end": 33.44
+      },
+      {
+        "text": "Entonces",
+        "start": 33.6,
+        "end": 34.08
+      },
+      {
+        "text": "aplicamos",
+        "start": 34.16,
+        "end": 34.72
+      },
+      {
+        "text": "Newton",
+        "start": 34.88,
+        "end": 35.28
+      },
+      {
+        "text": "a",
+        "start": 35.32,
+        "end": 35.36
+      },
+      {
+        "text": "la",
+        "start": 35.44,
+        "end": 35.48
+      },
+      {
+        "text": "ecuación",
+        "start": 35.52,
+        "end": 36
+      },
+      {
+        "text": "nabla",
+        "start": 36.24,
+        "end": 36.56
+      },
+      {
+        "text": "f",
+        "start": 36.72,
+        "end": 36.96
+      },
+      {
+        "text": "igual",
+        "start": 37.04,
+        "end": 37.36
+      },
+      {
+        "text": "a",
+        "start": 37.4,
+        "end": 37.44
+      },
+      {
+        "text": "cero.",
+        "start": 37.52,
+        "end": 37.84
+      },
+      {
+        "text": "Con",
+        "start": 38.56,
+        "end": 38.64
+      },
+      {
+        "text": "vectores,",
+        "start": 38.72,
+        "end": 39.6
+      },
+      {
+        "text": "dividir",
+        "start": 39.68,
+        "end": 40.08
+      },
+      {
+        "text": "por",
+        "start": 40.12,
+        "end": 40.16
+      },
+      {
+        "text": "la",
+        "start": 40.24,
+        "end": 40.32
+      },
+      {
+        "text": "derivada",
+        "start": 40.4,
+        "end": 40.88
+      },
+      {
+        "text": "se",
+        "start": 41.04,
+        "end": 41.2
+      },
+      {
+        "text": "vuelve",
+        "start": 41.24,
+        "end": 41.44
+      },
+      {
+        "text": "multiplicar",
+        "start": 41.52,
+        "end": 42.08
+      },
+      {
+        "text": "por",
+        "start": 42.24,
+        "end": 42.32
+      },
+      {
+        "text": "la",
+        "start": 42.4,
+        "end": 42.44
+      },
+      {
+        "text": "inversa",
+        "start": 42.48,
+        "end": 42.88
+      },
+      {
+        "text": "de",
+        "start": 42.92,
+        "end": 42.96
+      },
+      {
+        "text": "la",
+        "start": 43.04,
+        "end": 43.08
+      },
+      {
+        "text": "Hessiana,",
+        "start": 43.12,
+        "end": 44
+      },
+      {
+        "text": "la",
+        "start": 44.04,
+        "end": 44.08
+      },
+      {
+        "text": "matriz",
+        "start": 44.16,
+        "end": 44.56
+      },
+      {
+        "text": "de",
+        "start": 44.6,
+        "end": 44.64
+      },
+      {
+        "text": "segundas",
+        "start": 44.72,
+        "end": 45.12
+      },
+      {
+        "text": "derivadas.",
+        "start": 45.2,
+        "end": 46
+      },
+      {
+        "text": "Intuitivamente,",
+        "start": 46.08,
+        "end": 47.44
+      },
+      {
+        "text": "Newton",
+        "start": 47.52,
+        "end": 47.92
+      },
+      {
+        "text": "ajusta",
+        "start": 48,
+        "end": 48.48
+      },
+      {
+        "text": "un",
+        "start": 48.56,
+        "end": 48.64
+      },
+      {
+        "text": "tazón",
+        "start": 48.68,
+        "end": 48.96
+      },
+      {
+        "text": "cuadrático",
+        "start": 49.04,
+        "end": 49.68
+      },
+      {
+        "text": "a",
+        "start": 49.76,
+        "end": 49.84
+      },
+      {
+        "text": "f",
+        "start": 49.92,
+        "end": 50.24
+      },
+      {
+        "text": "en",
+        "start": 50.32,
+        "end": 50.4
+      },
+      {
+        "text": "el",
+        "start": 50.48,
+        "end": 50.56
+      },
+      {
+        "text": "punto",
+        "start": 50.64,
+        "end": 50.88
+      },
+      {
+        "text": "actual,",
+        "start": 51.12,
+        "end": 51.76
+      },
+      {
+        "text": "y",
+        "start": 51.8,
+        "end": 51.84
+      },
+      {
+        "text": "salta",
+        "start": 52,
+        "end": 52.32
+      },
+      {
+        "text": "directo",
+        "start": 52.4,
+        "end": 52.827
+      },
+      {
+        "text": "a",
+        "start": 52.853,
+        "end": 52.88
+      },
+      {
+        "text": "su",
+        "start": 52.96,
+        "end": 53.04
+      },
+      {
+        "text": "fondo.",
+        "start": 53.12,
+        "end": 53.52
+      }
+    ]
+  },
+  "newtonAeropuertos": {
+    "file": "voiceover/newtonAeropuertos.mp3",
+    "duration": 37.76,
+    "cues": {
+      "diagonal": 3.8,
+      "centroide": 13.28,
+      "repetir": 20.36,
+      "costo": 24.48
+    },
+    "words": [
+      {
+        "text": "En",
+        "start": 0.32,
+        "end": 0.4
+      },
+      {
+        "text": "los",
+        "start": 0.48,
+        "end": 0.56
+      },
+      {
+        "text": "aeropuertos,",
+        "start": 0.64,
+        "end": 1.52
+      },
+      {
+        "text": "la",
+        "start": 1.6,
+        "end": 1.68
+      },
+      {
+        "text": "Hessiana",
+        "start": 1.72,
+        "end": 2.16
+      },
+      {
+        "text": "es",
+        "start": 2.24,
+        "end": 2.32
+      },
+      {
+        "text": "muy",
+        "start": 2.48,
+        "end": 2.56
+      },
+      {
+        "text": "simple.",
+        "start": 2.72,
+        "end": 3.76
+      },
+      {
+        "text": "Fuera",
+        "start": 3.8,
+        "end": 4
+      },
+      {
+        "text": "de",
+        "start": 4.08,
+        "end": 4.12
+      },
+      {
+        "text": "la",
+        "start": 4.16,
+        "end": 4.24
+      },
+      {
+        "text": "diagonal",
+        "start": 4.28,
+        "end": 4.8
+      },
+      {
+        "text": "todo",
+        "start": 5.04,
+        "end": 5.28
+      },
+      {
+        "text": "es",
+        "start": 5.36,
+        "end": 5.44
+      },
+      {
+        "text": "cero,",
+        "start": 5.52,
+        "end": 6.24
+      },
+      {
+        "text": "y",
+        "start": 6.28,
+        "end": 6.32
+      },
+      {
+        "text": "en",
+        "start": 6.36,
+        "end": 6.4
+      },
+      {
+        "text": "la",
+        "start": 6.48,
+        "end": 6.52
+      },
+      {
+        "text": "diagonal,",
+        "start": 6.56,
+        "end": 7.36
+      },
+      {
+        "text": "para",
+        "start": 7.44,
+        "end": 7.52
+      },
+      {
+        "text": "el",
+        "start": 7.56,
+        "end": 7.6
+      },
+      {
+        "text": "aeropuerto",
+        "start": 7.68,
+        "end": 8.16
+      },
+      {
+        "text": "i,",
+        "start": 8.32,
+        "end": 8.88
+      },
+      {
+        "text": "aparece",
+        "start": 8.96,
+        "end": 9.52
+      },
+      {
+        "text": "dos",
+        "start": 9.6,
+        "end": 9.84
+      },
+      {
+        "text": "veces",
+        "start": 9.92,
+        "end": 10.24
+      },
+      {
+        "text": "la",
+        "start": 10.32,
+        "end": 10.4
+      },
+      {
+        "text": "cantidad",
+        "start": 10.48,
+        "end": 10.88
+      },
+      {
+        "text": "de",
+        "start": 10.92,
+        "end": 10.96
+      },
+      {
+        "text": "ciudades",
+        "start": 11.04,
+        "end": 11.6
+      },
+      {
+        "text": "de",
+        "start": 11.64,
+        "end": 11.68
+      },
+      {
+        "text": "C",
+        "start": 11.84,
+        "end": 12
+      },
+      {
+        "text": "sub",
+        "start": 12.08,
+        "end": 12.24
+      },
+      {
+        "text": "i.",
+        "start": 12.32,
+        "end": 12.56
+      },
+      {
+        "text": "Haciendo",
+        "start": 13.28,
+        "end": 13.68
+      },
+      {
+        "text": "la",
+        "start": 13.72,
+        "end": 13.76
+      },
+      {
+        "text": "cuenta,",
+        "start": 13.84,
+        "end": 14.64
+      },
+      {
+        "text": "un",
+        "start": 14.72,
+        "end": 14.88
+      },
+      {
+        "text": "solo",
+        "start": 14.96,
+        "end": 15.2
+      },
+      {
+        "text": "paso",
+        "start": 15.28,
+        "end": 15.52
+      },
+      {
+        "text": "de",
+        "start": 15.6,
+        "end": 15.64
+      },
+      {
+        "text": "Newton",
+        "start": 15.68,
+        "end": 16.16
+      },
+      {
+        "text": "lleva",
+        "start": 16.24,
+        "end": 16.64
+      },
+      {
+        "text": "cada",
+        "start": 16.68,
+        "end": 16.88
+      },
+      {
+        "text": "aeropuerto",
+        "start": 16.96,
+        "end": 17.52
+      },
+      {
+        "text": "directo",
+        "start": 17.76,
+        "end": 18.04
+      },
+      {
+        "text": "al",
+        "start": 18.08,
+        "end": 18.16
+      },
+      {
+        "text": "centroide",
+        "start": 18.24,
+        "end": 18.72
+      },
+      {
+        "text": "de",
+        "start": 18.76,
+        "end": 18.8
+      },
+      {
+        "text": "sus",
+        "start": 18.88,
+        "end": 19.04
+      },
+      {
+        "text": "ciudades.",
+        "start": 19.08,
+        "end": 20.24
+      },
+      {
+        "text": "Después",
+        "start": 20.36,
+        "end": 20.8
+      },
+      {
+        "text": "recalculamos",
+        "start": 20.88,
+        "end": 21.6
+      },
+      {
+        "text": "los",
+        "start": 21.68,
+        "end": 21.76
+      },
+      {
+        "text": "conjuntos",
+        "start": 21.88,
+        "end": 22.32
+      },
+      {
+        "text": "C,",
+        "start": 22.4,
+        "end": 22.88
+      },
+      {
+        "text": "y",
+        "start": 22.92,
+        "end": 22.96
+      },
+      {
+        "text": "repetimos.",
+        "start": 23.04,
+        "end": 23.76
+      },
+      {
+        "text": "El",
+        "start": 24.48,
+        "end": 24.64
+      },
+      {
+        "text": "problema:",
+        "start": 24.72,
+        "end": 25.68
+      },
+      {
+        "text": "con",
+        "start": 25.8,
+        "end": 25.92
+      },
+      {
+        "text": "n",
+        "start": 26,
+        "end": 26.16
+      },
+      {
+        "text": "variables,",
+        "start": 26.24,
+        "end": 27.04
+      },
+      {
+        "text": "la",
+        "start": 27.12,
+        "end": 27.2
+      },
+      {
+        "text": "Hessiana",
+        "start": 27.24,
+        "end": 27.68
+      },
+      {
+        "text": "tiene",
+        "start": 27.76,
+        "end": 28
+      },
+      {
+        "text": "n",
+        "start": 28.24,
+        "end": 28.4
+      },
+      {
+        "text": "al",
+        "start": 28.48,
+        "end": 28.56
+      },
+      {
+        "text": "cuadrado",
+        "start": 28.6,
+        "end": 28.96
+      },
+      {
+        "text": "entradas,",
+        "start": 29.08,
+        "end": 29.84
+      },
+      {
+        "text": "y",
+        "start": 29.88,
+        "end": 29.92
+      },
+      {
+        "text": "encima",
+        "start": 30,
+        "end": 30.4
+      },
+      {
+        "text": "hay",
+        "start": 30.56,
+        "end": 30.72
+      },
+      {
+        "text": "que",
+        "start": 30.76,
+        "end": 30.8
+      },
+      {
+        "text": "invertirla.",
+        "start": 30.96,
+        "end": 32.08
+      },
+      {
+        "text": "Con",
+        "start": 32.2,
+        "end": 32.32
+      },
+      {
+        "text": "muchas",
+        "start": 32.4,
+        "end": 32.64
+      },
+      {
+        "text": "dimensiones",
+        "start": 32.92,
+        "end": 33.36
+      },
+      {
+        "text": "es",
+        "start": 33.48,
+        "end": 33.6
+      },
+      {
+        "text": "carísimo,",
+        "start": 33.68,
+        "end": 34.64
+      },
+      {
+        "text": "por",
+        "start": 34.72,
+        "end": 34.8
+      },
+      {
+        "text": "eso",
+        "start": 34.88,
+        "end": 35.04
+      },
+      {
+        "text": "se",
+        "start": 35.12,
+        "end": 35.2
+      },
+      {
+        "text": "usan",
+        "start": 35.28,
+        "end": 35.52
+      },
+      {
+        "text": "versiones",
+        "start": 35.72,
+        "end": 36
+      },
+      {
+        "text": "aproximadas",
+        "start": 36.08,
+        "end": 36.72
+      },
+      {
+        "text": "de",
+        "start": 36.8,
+        "end": 36.84
+      },
+      {
+        "text": "Newton.",
+        "start": 36.88,
+        "end": 37.36
+      }
+    ]
+  },
+  "problemas": {
+    "file": "voiceover/problemas.mp3",
+    "duration": 19.12,
+    "cues": {
+      "problemas": 3.36,
+      "soluciones": 8.64,
+      "perderse": 13.12
+    },
+    "words": [
+      {
+        "text": "Los",
+        "start": 0.4,
+        "end": 0.56
+      },
+      {
+        "text": "problemas",
+        "start": 0.64,
+        "end": 1.04
+      },
+      {
+        "text": "de",
+        "start": 1.12,
+        "end": 1.2
+      },
+      {
+        "text": "siempre",
+        "start": 1.28,
+        "end": 1.68
+      },
+      {
+        "text": "no",
+        "start": 1.84,
+        "end": 2
+      },
+      {
+        "text": "desaparecen.",
+        "start": 2.08,
+        "end": 2.88
+      },
+      {
+        "text": "En",
+        "start": 3.36,
+        "end": 3.44
+      },
+      {
+        "text": "espacios",
+        "start": 3.52,
+        "end": 3.92
+      },
+      {
+        "text": "continuos",
+        "start": 4,
+        "end": 4.64
+      },
+      {
+        "text": "también",
+        "start": 4.72,
+        "end": 5.12
+      },
+      {
+        "text": "hay",
+        "start": 5.2,
+        "end": 5.28
+      },
+      {
+        "text": "máximos",
+        "start": 5.36,
+        "end": 5.76
+      },
+      {
+        "text": "locales,",
+        "start": 5.84,
+        "end": 6.64
+      },
+      {
+        "text": "crestas",
+        "start": 6.8,
+        "end": 7.2
+      },
+      {
+        "text": "y",
+        "start": 7.28,
+        "end": 7.32
+      },
+      {
+        "text": "mesetas.",
+        "start": 7.36,
+        "end": 8
+      },
+      {
+        "text": "Los",
+        "start": 8.64,
+        "end": 8.8
+      },
+      {
+        "text": "reinicios",
+        "start": 8.88,
+        "end": 9.36
+      },
+      {
+        "text": "aleatorios",
+        "start": 9.44,
+        "end": 10.08
+      },
+      {
+        "text": "y",
+        "start": 10.16,
+        "end": 10.2
+      },
+      {
+        "text": "el",
+        "start": 10.24,
+        "end": 10.32
+      },
+      {
+        "text": "recocido",
+        "start": 10.4,
+        "end": 10.88
+      },
+      {
+        "text": "simulado",
+        "start": 11,
+        "end": 11.44
+      },
+      {
+        "text": "siguen",
+        "start": 11.6,
+        "end": 11.92
+      },
+      {
+        "text": "ayudando.",
+        "start": 12,
+        "end": 12.56
+      },
+      {
+        "text": "Pero",
+        "start": 13.12,
+        "end": 13.28
+      },
+      {
+        "text": "un",
+        "start": 13.36,
+        "end": 13.44
+      },
+      {
+        "text": "espacio",
+        "start": 13.52,
+        "end": 13.92
+      },
+      {
+        "text": "continuo",
+        "start": 14,
+        "end": 14.48
+      },
+      {
+        "text": "de",
+        "start": 14.52,
+        "end": 14.56
+      },
+      {
+        "text": "muchas",
+        "start": 14.72,
+        "end": 14.96
+      },
+      {
+        "text": "dimensiones",
+        "start": 15.04,
+        "end": 15.76
+      },
+      {
+        "text": "es",
+        "start": 15.88,
+        "end": 16
+      },
+      {
+        "text": "enorme,",
+        "start": 16.12,
+        "end": 16.96
+      },
+      {
+        "text": "y",
+        "start": 17,
+        "end": 17.04
+      },
+      {
+        "text": "es",
+        "start": 17.12,
+        "end": 17.2
+      },
+      {
+        "text": "muy",
+        "start": 17.36,
+        "end": 17.52
+      },
+      {
+        "text": "fácil",
+        "start": 17.68,
+        "end": 17.92
+      },
+      {
+        "text": "perderse.",
+        "start": 18,
+        "end": 18.64
+      }
+    ]
+  },
+  "restricciones": {
+    "file": "voiceover/restricciones.mp3",
+    "duration": 57.98,
+    "cues": {
+      "restr": 4,
+      "lp": 14.96,
+      "vertice": 24.24,
+      "convexo": 30.8,
+      "poli": 37.68,
+      "convexa": 42.64
+    },
+    "words": [
+      {
+        "text": "Último",
+        "start": 0.48,
+        "end": 0.8
+      },
+      {
+        "text": "tema:",
+        "start": 0.88,
+        "end": 1.28
+      },
+      {
+        "text": "optimización",
+        "start": 1.68,
+        "end": 2.4
+      },
+      {
+        "text": "con",
+        "start": 2.48,
+        "end": 2.56
+      },
+      {
+        "text": "restricciones.",
+        "start": 2.64,
+        "end": 3.52
+      },
+      {
+        "text": "Las",
+        "start": 4,
+        "end": 4.16
+      },
+      {
+        "text": "soluciones",
+        "start": 4.24,
+        "end": 4.8
+      },
+      {
+        "text": "tienen",
+        "start": 4.88,
+        "end": 5.12
+      },
+      {
+        "text": "que",
+        "start": 5.2,
+        "end": 5.28
+      },
+      {
+        "text": "cumplir",
+        "start": 5.36,
+        "end": 5.68
+      },
+      {
+        "text": "condiciones",
+        "start": 5.76,
+        "end": 6.32
+      },
+      {
+        "text": "estrictas.",
+        "start": 6.44,
+        "end": 7.04
+      },
+      {
+        "text": "Por",
+        "start": 7.52,
+        "end": 7.6
+      },
+      {
+        "text": "ejemplo,",
+        "start": 7.68,
+        "end": 8.48
+      },
+      {
+        "text": "los",
+        "start": 8.56,
+        "end": 8.64
+      },
+      {
+        "text": "aeropuertos",
+        "start": 8.72,
+        "end": 9.36
+      },
+      {
+        "text": "deben",
+        "start": 9.44,
+        "end": 9.68
+      },
+      {
+        "text": "quedar",
+        "start": 9.76,
+        "end": 10.08
+      },
+      {
+        "text": "dentro",
+        "start": 10.16,
+        "end": 10.48
+      },
+      {
+        "text": "de",
+        "start": 10.52,
+        "end": 10.56
+      },
+      {
+        "text": "Rumania,",
+        "start": 10.64,
+        "end": 11.44
+      },
+      {
+        "text": "y",
+        "start": 11.48,
+        "end": 11.52
+      },
+      {
+        "text": "en",
+        "start": 11.56,
+        "end": 11.6
+      },
+      {
+        "text": "tierra",
+        "start": 11.68,
+        "end": 11.92
+      },
+      {
+        "text": "firme,",
+        "start": 12,
+        "end": 12.64
+      },
+      {
+        "text": "no",
+        "start": 12.8,
+        "end": 12.88
+      },
+      {
+        "text": "en",
+        "start": 12.96,
+        "end": 13.04
+      },
+      {
+        "text": "el",
+        "start": 13.08,
+        "end": 13.12
+      },
+      {
+        "text": "medio",
+        "start": 13.2,
+        "end": 13.44
+      },
+      {
+        "text": "de",
+        "start": 13.52,
+        "end": 13.56
+      },
+      {
+        "text": "un",
+        "start": 13.6,
+        "end": 13.64
+      },
+      {
+        "text": "lago.",
+        "start": 13.68,
+        "end": 14.08
+      },
+      {
+        "text": "El",
+        "start": 14.96,
+        "end": 15.04
+      },
+      {
+        "text": "caso",
+        "start": 15.12,
+        "end": 15.44
+      },
+      {
+        "text": "más",
+        "start": 15.52,
+        "end": 15.68
+      },
+      {
+        "text": "conocido",
+        "start": 15.76,
+        "end": 16.32
+      },
+      {
+        "text": "es",
+        "start": 16.48,
+        "end": 16.64
+      },
+      {
+        "text": "la",
+        "start": 16.68,
+        "end": 16.72
+      },
+      {
+        "text": "programación",
+        "start": 16.8,
+        "end": 17.44
+      },
+      {
+        "text": "lineal:",
+        "start": 17.56,
+        "end": 18.4
+      },
+      {
+        "text": "las",
+        "start": 18.48,
+        "end": 18.56
+      },
+      {
+        "text": "restricciones",
+        "start": 18.64,
+        "end": 19.36
+      },
+      {
+        "text": "son",
+        "start": 19.44,
+        "end": 19.52
+      },
+      {
+        "text": "desigualdades",
+        "start": 19.6,
+        "end": 20.32
+      },
+      {
+        "text": "lineales,",
+        "start": 20.44,
+        "end": 21.2
+      },
+      {
+        "text": "y",
+        "start": 21.24,
+        "end": 21.28
+      },
+      {
+        "text": "la",
+        "start": 21.36,
+        "end": 21.44
+      },
+      {
+        "text": "función",
+        "start": 21.52,
+        "end": 21.84
+      },
+      {
+        "text": "objetivo",
+        "start": 22,
+        "end": 22.4
+      },
+      {
+        "text": "también",
+        "start": 22.56,
+        "end": 22.96
+      },
+      {
+        "text": "es",
+        "start": 23.04,
+        "end": 23.12
+      },
+      {
+        "text": "lineal.",
+        "start": 23.2,
+        "end": 23.68
+      },
+      {
+        "text": "En",
+        "start": 24.24,
+        "end": 24.32
+      },
+      {
+        "text": "dos",
+        "start": 24.4,
+        "end": 24.56
+      },
+      {
+        "text": "dimensiones,",
+        "start": 24.84,
+        "end": 25.6
+      },
+      {
+        "text": "la",
+        "start": 25.64,
+        "end": 25.68
+      },
+      {
+        "text": "región",
+        "start": 25.76,
+        "end": 26.08
+      },
+      {
+        "text": "permitida",
+        "start": 26.16,
+        "end": 26.64
+      },
+      {
+        "text": "es",
+        "start": 26.8,
+        "end": 26.96
+      },
+      {
+        "text": "un",
+        "start": 27,
+        "end": 27.04
+      },
+      {
+        "text": "polígono,",
+        "start": 27.12,
+        "end": 28
+      },
+      {
+        "text": "y",
+        "start": 28.04,
+        "end": 28.08
+      },
+      {
+        "text": "el",
+        "start": 28.16,
+        "end": 28.24
+      },
+      {
+        "text": "óptimo",
+        "start": 28.28,
+        "end": 28.72
+      },
+      {
+        "text": "aparece",
+        "start": 28.8,
+        "end": 29.28
+      },
+      {
+        "text": "en",
+        "start": 29.32,
+        "end": 29.36
+      },
+      {
+        "text": "un",
+        "start": 29.44,
+        "end": 29.48
+      },
+      {
+        "text": "vértice.",
+        "start": 29.52,
+        "end": 30.16
+      },
+      {
+        "text": "Esa",
+        "start": 30.8,
+        "end": 30.96
+      },
+      {
+        "text": "región",
+        "start": 31.04,
+        "end": 31.52
+      },
+      {
+        "text": "es",
+        "start": 31.6,
+        "end": 31.76
+      },
+      {
+        "text": "un",
+        "start": 31.8,
+        "end": 31.84
+      },
+      {
+        "text": "conjunto",
+        "start": 31.92,
+        "end": 32.4
+      },
+      {
+        "text": "convexo:",
+        "start": 32.52,
+        "end": 33.52
+      },
+      {
+        "text": "el",
+        "start": 33.56,
+        "end": 33.6
+      },
+      {
+        "text": "segmento",
+        "start": 33.68,
+        "end": 34.2
+      },
+      {
+        "text": "entre",
+        "start": 34.24,
+        "end": 34.48
+      },
+      {
+        "text": "dos",
+        "start": 34.56,
+        "end": 34.72
+      },
+      {
+        "text": "puntos",
+        "start": 34.8,
+        "end": 35.12
+      },
+      {
+        "text": "cualesquiera",
+        "start": 35.16,
+        "end": 35.76
+      },
+      {
+        "text": "queda",
+        "start": 35.92,
+        "end": 36.16
+      },
+      {
+        "text": "adentro.",
+        "start": 36.24,
+        "end": 37.2
+      },
+      {
+        "text": "La",
+        "start": 37.68,
+        "end": 37.76
+      },
+      {
+        "text": "programación",
+        "start": 37.84,
+        "end": 38.4
+      },
+      {
+        "text": "lineal",
+        "start": 38.48,
+        "end": 38.8
+      },
+      {
+        "text": "se",
+        "start": 38.96,
+        "end": 39.04
+      },
+      {
+        "text": "resuelve",
+        "start": 39.12,
+        "end": 39.52
+      },
+      {
+        "text": "en",
+        "start": 39.6,
+        "end": 39.68
+      },
+      {
+        "text": "tiempo",
+        "start": 39.72,
+        "end": 40
+      },
+      {
+        "text": "polinomial",
+        "start": 40.08,
+        "end": 40.64
+      },
+      {
+        "text": "en",
+        "start": 40.72,
+        "end": 40.88
+      },
+      {
+        "text": "el",
+        "start": 40.92,
+        "end": 40.96
+      },
+      {
+        "text": "número",
+        "start": 41.04,
+        "end": 41.36
+      },
+      {
+        "text": "de",
+        "start": 41.4,
+        "end": 41.44
+      },
+      {
+        "text": "variables.",
+        "start": 41.52,
+        "end": 42.16
+      },
+      {
+        "text": "Y",
+        "start": 42.64,
+        "end": 42.72
+      },
+      {
+        "text": "es",
+        "start": 42.8,
+        "end": 42.88
+      },
+      {
+        "text": "un",
+        "start": 42.96,
+        "end": 43.04
+      },
+      {
+        "text": "caso",
+        "start": 43.12,
+        "end": 43.28
+      },
+      {
+        "text": "especial",
+        "start": 43.36,
+        "end": 43.84
+      },
+      {
+        "text": "de",
+        "start": 43.88,
+        "end": 43.92
+      },
+      {
+        "text": "la",
+        "start": 44,
+        "end": 44.04
+      },
+      {
+        "text": "optimización",
+        "start": 44.08,
+        "end": 44.72
+      },
+      {
+        "text": "convexa:",
+        "start": 44.8,
+        "end": 45.84
+      },
+      {
+        "text": "región",
+        "start": 45.92,
+        "end": 46.24
+      },
+      {
+        "text": "convexa,",
+        "start": 46.32,
+        "end": 47.12
+      },
+      {
+        "text": "objetivo",
+        "start": 47.32,
+        "end": 47.68
+      },
+      {
+        "text": "convexo.",
+        "start": 47.76,
+        "end": 48.4
+      },
+      {
+        "text": "Bajo",
+        "start": 49.04,
+        "end": 49.28
+      },
+      {
+        "text": "ciertas",
+        "start": 49.36,
+        "end": 49.68
+      },
+      {
+        "text": "condiciones",
+        "start": 49.76,
+        "end": 50.4
+      },
+      {
+        "text": "también",
+        "start": 50.48,
+        "end": 50.88
+      },
+      {
+        "text": "es",
+        "start": 50.96,
+        "end": 51.04
+      },
+      {
+        "text": "polinomial,",
+        "start": 51.12,
+        "end": 52.08
+      },
+      {
+        "text": "aun",
+        "start": 52.12,
+        "end": 52.32
+      },
+      {
+        "text": "con",
+        "start": 52.4,
+        "end": 52.56
+      },
+      {
+        "text": "miles",
+        "start": 52.72,
+        "end": 52.96
+      },
+      {
+        "text": "de",
+        "start": 53.04,
+        "end": 53.08
+      },
+      {
+        "text": "variables,",
+        "start": 53.12,
+        "end": 54.08
+      },
+      {
+        "text": "y",
+        "start": 54.12,
+        "end": 54.16
+      },
+      {
+        "text": "aparece",
+        "start": 54.24,
+        "end": 54.64
+      },
+      {
+        "text": "mucho",
+        "start": 54.72,
+        "end": 55.04
+      },
+      {
+        "text": "en",
+        "start": 55.08,
+        "end": 55.12
+      },
+      {
+        "text": "aprendizaje",
+        "start": 55.2,
+        "end": 55.76
+      },
+      {
+        "text": "automático",
+        "start": 55.84,
+        "end": 56.48
+      },
+      {
+        "text": "y",
+        "start": 56.56,
+        "end": 56.64
+      },
+      {
+        "text": "control.",
+        "start": 56.72,
+        "end": 57.72
+      }
+    ]
+  },
+  "resumen": {
+    "file": "voiceover/resumen.mp3",
+    "duration": 31.22,
+    "cues": {
+      "r1": 1.54,
+      "r2": 5.06,
+      "r3": 9.54,
+      "r4": 15.3,
+      "r5": 21.54,
+      "r6": 24.5
+    },
+    "words": [
+      {
+        "text": "Resumiendo.",
+        "start": 0.26,
+        "end": 1.06
+      },
+      {
+        "text": "En",
+        "start": 1.54,
+        "end": 1.62
+      },
+      {
+        "text": "espacios",
+        "start": 1.74,
+        "end": 2.1
+      },
+      {
+        "text": "continuos",
+        "start": 2.18,
+        "end": 2.82
+      },
+      {
+        "text": "hay",
+        "start": 2.94,
+        "end": 3.06
+      },
+      {
+        "text": "infinitos",
+        "start": 3.14,
+        "end": 3.78
+      },
+      {
+        "text": "sucesores.",
+        "start": 3.86,
+        "end": 4.58
+      },
+      {
+        "text": "Podemos",
+        "start": 5.06,
+        "end": 5.46
+      },
+      {
+        "text": "discretizar",
+        "start": 5.54,
+        "end": 6.18
+      },
+      {
+        "text": "con",
+        "start": 6.26,
+        "end": 6.34
+      },
+      {
+        "text": "un",
+        "start": 6.42,
+        "end": 6.5
+      },
+      {
+        "text": "paso",
+        "start": 6.58,
+        "end": 6.74
+      },
+      {
+        "text": "delta",
+        "start": 6.82,
+        "end": 7.22
+      },
+      {
+        "text": "y",
+        "start": 7.38,
+        "end": 7.46
+      },
+      {
+        "text": "usar",
+        "start": 7.54,
+        "end": 7.78
+      },
+      {
+        "text": "gradiente",
+        "start": 7.86,
+        "end": 8.26
+      },
+      {
+        "text": "empírico.",
+        "start": 8.34,
+        "end": 8.98
+      },
+      {
+        "text": "Si",
+        "start": 9.54,
+        "end": 9.62
+      },
+      {
+        "text": "tenemos",
+        "start": 9.7,
+        "end": 10.1
+      },
+      {
+        "text": "la",
+        "start": 10.14,
+        "end": 10.18
+      },
+      {
+        "text": "fórmula,",
+        "start": 10.26,
+        "end": 10.98
+      },
+      {
+        "text": "usamos",
+        "start": 11.06,
+        "end": 11.46
+      },
+      {
+        "text": "el",
+        "start": 11.5,
+        "end": 11.54
+      },
+      {
+        "text": "gradiente,",
+        "start": 11.62,
+        "end": 12.5
+      },
+      {
+        "text": "cuidando",
+        "start": 12.54,
+        "end": 12.9
+      },
+      {
+        "text": "el",
+        "start": 12.98,
+        "end": 13.02
+      },
+      {
+        "text": "tamaño",
+        "start": 13.06,
+        "end": 13.46
+      },
+      {
+        "text": "de",
+        "start": 13.54,
+        "end": 13.62
+      },
+      {
+        "text": "paso",
+        "start": 13.7,
+        "end": 13.94
+      },
+      {
+        "text": "alfa.",
+        "start": 14.02,
+        "end": 14.86
+      },
+      {
+        "text": "Newton-Raphson",
+        "start": 15.3,
+        "end": 16.18
+      },
+      {
+        "text": "usa",
+        "start": 16.34,
+        "end": 16.58
+      },
+      {
+        "text": "además",
+        "start": 16.66,
+        "end": 17.06
+      },
+      {
+        "text": "la",
+        "start": 17.1,
+        "end": 17.14
+      },
+      {
+        "text": "Hessiana",
+        "start": 17.22,
+        "end": 17.7
+      },
+      {
+        "text": "para",
+        "start": 17.86,
+        "end": 18.02
+      },
+      {
+        "text": "saltar",
+        "start": 18.1,
+        "end": 18.42
+      },
+      {
+        "text": "al",
+        "start": 18.5,
+        "end": 18.66
+      },
+      {
+        "text": "óptimo",
+        "start": 18.7,
+        "end": 19.06
+      },
+      {
+        "text": "de",
+        "start": 19.14,
+        "end": 19.22
+      },
+      {
+        "text": "una",
+        "start": 19.3,
+        "end": 19.38
+      },
+      {
+        "text": "aproximación",
+        "start": 19.46,
+        "end": 20.18
+      },
+      {
+        "text": "cuadrática.",
+        "start": 20.22,
+        "end": 20.98
+      },
+      {
+        "text": "Los",
+        "start": 21.54,
+        "end": 21.7
+      },
+      {
+        "text": "máximos",
+        "start": 21.78,
+        "end": 22.18
+      },
+      {
+        "text": "locales",
+        "start": 22.26,
+        "end": 22.74
+      },
+      {
+        "text": "siguen",
+        "start": 22.9,
+        "end": 23.22
+      },
+      {
+        "text": "existiendo.",
+        "start": 23.42,
+        "end": 24.02
+      },
+      {
+        "text": "Y",
+        "start": 24.5,
+        "end": 24.58
+      },
+      {
+        "text": "con",
+        "start": 24.66,
+        "end": 24.74
+      },
+      {
+        "text": "restricciones,",
+        "start": 24.82,
+        "end": 25.86
+      },
+      {
+        "text": "la",
+        "start": 25.94,
+        "end": 26.02
+      },
+      {
+        "text": "programación",
+        "start": 26.1,
+        "end": 26.66
+      },
+      {
+        "text": "lineal",
+        "start": 26.74,
+        "end": 27.14
+      },
+      {
+        "text": "y",
+        "start": 27.3,
+        "end": 27.34
+      },
+      {
+        "text": "la",
+        "start": 27.38,
+        "end": 27.42
+      },
+      {
+        "text": "optimización",
+        "start": 27.46,
+        "end": 28.1
+      },
+      {
+        "text": "convexa",
+        "start": 28.18,
+        "end": 28.74
+      },
+      {
+        "text": "son",
+        "start": 28.98,
+        "end": 29.14
+      },
+      {
+        "text": "los",
+        "start": 29.22,
+        "end": 29.3
+      },
+      {
+        "text": "casos",
+        "start": 29.38,
+        "end": 29.7
+      },
+      {
+        "text": "que",
+        "start": 29.74,
+        "end": 29.78
+      },
+      {
+        "text": "sabemos",
+        "start": 29.86,
+        "end": 30.26
+      },
+      {
+        "text": "resolver",
+        "start": 30.34,
+        "end": 30.74
+      },
+      {
+        "text": "bien.",
+        "start": 30.82,
+        "end": 31.46
+      }
+    ]
+  }
+}
